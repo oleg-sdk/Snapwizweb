@@ -1,0 +1,248 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  background: #F9F9FF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+section {
+  width: 100%;
+  position: relative;
+  background: whitesmoke;
+  overflow: hidden;
+}
+.particles {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+.fadeIn {
+  display: none;
+  color: rgba(218, 218, 218, 0.5);
+  font-weight: light;
+}
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(circle, #0F3B69 0%, #0F121A 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+  height: 100%;
+  position: relative;
+  padding: 0px 40px;
+  border: 1px solid red;
+}
+.right {
+  float: right;
+  right: 0;
+}
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
+.header a {
+  display: block;
+  float: right;
+  padding: 20px 40px;
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+  font-size: 16px;
+}
+#intro {
+  height: calc(100vh - 80px);
+  border: 1px solid black;
+}
+#intro .intro {
+  margin-top: 35vh;
+  max-width: 600px;
+}
+#intro .intro h1 {
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 1;
+  color: white;
+  margin-bottom: 20px;
+}
+#intro .intro p {
+  font-size: 17px;
+  line-height: 1.4;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.5);
+}
+#features {
+  height: 750px;
+}
+#features .container {
+  height: auto;
+  margin-bottom: 60px;
+}
+#features h2 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+#features p {
+  max-width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 100;
+  color: #49494A;
+}
+#features .flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+#features .flex-container .feature {
+  width: 28%;
+  min-width: 240px;
+  text-align: center;
+}
+#features .flex-container .feature img {
+  width: 250px;
+}
+#features .flex-container .feature p {
+  font-size: 14px;
+}
+#products .products-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#products .products-bg.bg-green {
+  background: #25A564;
+}
+#products .products-bg.bg-purple {
+  background: #164892;
+}
+#products .products-bg.bg-orange {
+  background: #D0851C;
+}
+#products .product {
+  height: 100vh;
+  position: relative;
+  border: 1px solid aqua;
+}
+#products .product-text {
+  width: 280px;
+  margin-top: 25vh;
+}
+#products .product-text h2 {
+  font-size: 50px;
+  color: white;
+}
+#products .product-text ul {
+  color: white;
+  font-size: 20px;
+  list-style: none;
+  padding-left: 5px;
+  line-height: 36px;
+}
+#products .product-text ul li {
+  opacity: 0.5;
+  transition: 0.3s ease;
+}
+#products .product-text ul li.active {
+  opacity: 1;
+}
+#products .product-text p {
+  color: white;
+  font-size: 18px;
+  line-height: 26px;
+}
+#products .product-text .wrapper {
+  width: 280px;
+  overflow: hidden;
+}
+#products .product-text .wrapper .text-slider {
+  width: 1200px;
+  transform: translateX(0px);
+  transition: 1s ease;
+}
+#products .product-text .wrapper .text-slider p {
+  display: block;
+  max-width: 280px;
+  float: left;
+  margin-right: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  border-left: 2px solid aqua;
+  padding-left: 10px;
+}
+.product-slider {
+  top: 21vh;
+  position: absolute;
+  left: 290px;
+  background: url("/files/laptop-full.png") no-repeat;
+  background-size: 100% 100%;
+  width: 1024px;
+  height: 580px;
+}
+.product-slider.left {
+  right: 290px;
+  left: auto;
+}
+.product-slider .wrapper {
+  border: 1px solid red;
+  height: 415px;
+  width: 708px;
+  position: absolute;
+  top: 67px;
+  left: 160px;
+  overflow: hidden;
+}
+.product-slider .wrapper .slide-container {
+  width: 3000px;
+  transform: translateX(0px);
+  transition: 1s ease;
+  height: 415px;
+  float: left;
+}
+.product-slider .wrapper .slide-container .slide {
+  display: block;
+  float: left;
+  margin-right: 40px;
+}
+.product-slider .wrapper .slide-container .slide img {
+  height: 415px;
+  width: 708px;
+}
+#team {
+  height: 750px;
+}
+#team .container {
+  height: auto;
+  margin-bottom: 60px;
+}
+#team h2 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+#team p {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 100;
+  color: #49494A;
+}
