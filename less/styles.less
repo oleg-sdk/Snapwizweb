@@ -22,7 +22,7 @@ section{
   height: 100%;
   position: relative;
   padding: 0px 40px;
-  border: 1px solid red;
+  border: 1px solid rgba(255, 0, 0, 0);
 }
 .right{
   float:right;
@@ -33,6 +33,16 @@ section{
   position: absolute;
   width:100%;
   z-index: 100;
+  .logo{
+    width: 160px;
+    height: 42px;
+    background: url('/files/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
   a{
     display:block;
     float:right;
@@ -44,7 +54,8 @@ section{
   }
 }
 #intro{
-  height: calc(~"100vh - 80px");
+  height: 100vh;
+  //height: calc(~"100vh - 80px");
   border: 1px solid black;
   .intro{
     margin-top: 35vh;
@@ -57,15 +68,17 @@ section{
       margin-bottom: 20px;
     }
     p{
-      font-size: 17px;
+      font-size: 23px;
       line-height: 1.4;
+      letter-spacing: 0.5px;
       font-weight: 100;
       color: rgba(255, 255, 255, 0.5);
     }
   }
 }
 #features{
-  height: 750px;
+  height: 850px;
+  padding-top: 50px;
   .container{
     height:auto;
     margin-bottom: 60px;
@@ -74,10 +87,11 @@ section{
     text-align: center;
     font-size: 50px;
     margin-top: 80px;
-    margin-bottom: 30px;
+    margin-bottom: 17px;
+    font-weight: 100;
   }
   p{
-    max-width: 1000px;
+    max-width: 600px;
     text-align: center;
     margin: 0 auto;
     font-size: 20px;
@@ -89,17 +103,24 @@ section{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    margin-top: 70px;
+    margin-top: 90px;
     .feature{
       width:28%;
       min-width: 240px;
-      //float:left;
       text-align: center;
       img{
-        width: 250px;
+        width: 200px;
+      }
+      h3{
+        margin-top: 34px;
+        margin-bottom: 10px;
+        font-size: 25px;
       }
       p{
-        font-size:14px;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        opacity: 0.8;
       }
     }
   }
@@ -110,22 +131,21 @@ section{
     width: 100%;
     height: 100%;
     &.bg-green{
-      background: #25A564;
+      background-image: linear-gradient(-123deg, #006C72 0%, #04ED61 99%);
     }
     &.bg-purple{
-      background: #164892;
+      background: linear-gradient(-123deg, #000407 0%, #124188 99%);
     }
     &.bg-orange{
-      background: #D0851C;
+      background: linear-gradient(-123deg, #D85609 0%, #93B702 99%);
     }
   }
   .product{
     height: 100vh;
     position: relative;
-    border: 1px solid aqua;
   }
   .product-text{
-    width: 280px;
+    width: 350px;
     margin-top: 25vh;
     h2{
       font-size: 50px;
@@ -140,6 +160,7 @@ section{
       li{
         opacity: 0.5;
         transition: 0.3s ease;
+        cursor: pointer;
       }
       li.active{opacity: 1;}
     }
@@ -149,33 +170,37 @@ section{
       line-height: 26px;
     }
     .wrapper{
-      width: 280px;
+      width: 350px;
       overflow: hidden;
+      border-left: 2px solid rgba(255, 255, 255, 0.31);
       .text-slider{
         width: 1200px;
         transform: translateX(0px);
-        transition: 1s ease;
+        transition: 0.5s cubic-bezier(0.85, 0.13, 0.1, 0.99);
         p{
           display: block;
-          max-width: 280px;
+          max-width: 320px;
           float: left;
           margin-right: 40px;
-          font-size: 14px;
+          font-size: 17px;
+          line-height: 26px;
+          letter-spacing: 0.2px;
           font-weight: 400;
+          margin: 0 10px;
           color: white;
-          border-left: 2px solid aqua;
           padding-left: 10px;
+          transition: 0.5s ease;
         }
         }
       }
     }
   }
   .product-slider{
-    top: 21vh;
+    top: 23vh;
     position: absolute;
-    left: 290px;
+    left: 360px;
     background: url("/files/laptop-full.png") no-repeat;
-    background-size: 100% 100%;
+    background-size: 83%;
     width: 1024px;
     height: 580px;
     &.left{
@@ -183,23 +208,23 @@ section{
       left: auto;
     }
     .wrapper{
-      border: 1px solid red;
-      height: 415px;
-      width: 708px;
+      height: 344px;
+      width: 588px;
       position: absolute;
-      top: 67px;
-      left: 160px;
+      top: 56px;
+      left: 132px;
       overflow: hidden;
       .slide-container{
         width: 3000px;
         transform: translateX(0px);
-        transition: 1s ease;
+        transition: 0.5s cubic-bezier(0.85, 0.13, 0.1, 0.99);
         height: 415px;
         float: left;
         .slide{
           display: block;
           float: left;
           margin-right: 40px;
+          transition: 0.5s ease;
           img{
             height: 415px;
             width: 708px;
@@ -208,6 +233,34 @@ section{
       }
     }
   }
+
+#edulastic.stage1{
+  .text-slider{transform: translateX(0px) !important;}
+  .slide-container{transform: translateX(0px) !important;}
+  .first{opacity: 1;}
+  .second{opacity: 0;}
+  .third{opacity: 0;}
+}
+#edulastic.stage2{
+  .text-slider{transform: translateX(-350px) !important;}
+  .slide-container{transform: translateX(-750px) !important;}
+  .first{opacity: 0;}
+  .second{opacity: 1;}
+  .third{opacity: 0;}
+}
+#edulastic.stage3{
+  .text-slider{transform: translateX(-700px) !important;}
+  .slide-container{transform: translateX(-1500px) !important;}
+  .first{opacity: 0;}
+  .second{opacity: 0;}
+  .third{opacity: 1;}
+}
+
+#glider{
+  .product-slider{
+    background: none;
+  }
+}
 
 #team{
   height: 750px;
@@ -228,8 +281,5 @@ section{
     line-height: 1.4;
     font-weight: 100;
     color: #49494A;
+  }
 }
-}
-  #edulastic.stage1{}
-  #edulastic.stage2{}
-  #edulastic.stage3{}

@@ -41,7 +41,7 @@ canvas {
   height: 100%;
   position: relative;
   padding: 0px 40px;
-  border: 1px solid red;
+  border: 1px solid rgba(255, 0, 0, 0);
 }
 .right {
   float: right;
@@ -51,6 +51,16 @@ canvas {
   position: absolute;
   width: 100%;
   z-index: 100;
+}
+.header .logo {
+  width: 160px;
+  height: 42px;
+  background: url('/files/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 30px;
+  left: 30px;
 }
 .header a {
   display: block;
@@ -62,7 +72,7 @@ canvas {
   font-size: 16px;
 }
 #intro {
-  height: calc(100vh - 80px);
+  height: 100vh;
   border: 1px solid black;
 }
 #intro .intro {
@@ -77,13 +87,15 @@ canvas {
   margin-bottom: 20px;
 }
 #intro .intro p {
-  font-size: 17px;
+  font-size: 23px;
   line-height: 1.4;
+  letter-spacing: 0.5px;
   font-weight: 100;
   color: rgba(255, 255, 255, 0.5);
 }
 #features {
-  height: 750px;
+  height: 850px;
+  padding-top: 50px;
 }
 #features .container {
   height: auto;
@@ -93,10 +105,11 @@ canvas {
   text-align: center;
   font-size: 50px;
   margin-top: 80px;
-  margin-bottom: 30px;
+  margin-bottom: 17px;
+  font-weight: 100;
 }
 #features p {
-  max-width: 1000px;
+  max-width: 600px;
   text-align: center;
   margin: 0 auto;
   font-size: 20px;
@@ -108,7 +121,7 @@ canvas {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  margin-top: 70px;
+  margin-top: 90px;
 }
 #features .flex-container .feature {
   width: 28%;
@@ -116,10 +129,18 @@ canvas {
   text-align: center;
 }
 #features .flex-container .feature img {
-  width: 250px;
+  width: 200px;
+}
+#features .flex-container .feature h3 {
+  margin-top: 34px;
+  margin-bottom: 10px;
+  font-size: 25px;
 }
 #features .flex-container .feature p {
   font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  opacity: 0.8;
 }
 #products .products-bg {
   position: absolute;
@@ -127,21 +148,20 @@ canvas {
   height: 100%;
 }
 #products .products-bg.bg-green {
-  background: #25A564;
+  background-image: linear-gradient(-123deg, #006C72 0%, #04ED61 99%);
 }
 #products .products-bg.bg-purple {
-  background: #164892;
+  background: linear-gradient(-123deg, #000407 0%, #124188 99%);
 }
 #products .products-bg.bg-orange {
-  background: #D0851C;
+  background: linear-gradient(-123deg, #D85609 0%, #93B702 99%);
 }
 #products .product {
   height: 100vh;
   position: relative;
-  border: 1px solid aqua;
 }
 #products .product-text {
-  width: 280px;
+  width: 350px;
   margin-top: 25vh;
 }
 #products .product-text h2 {
@@ -158,6 +178,7 @@ canvas {
 #products .product-text ul li {
   opacity: 0.5;
   transition: 0.3s ease;
+  cursor: pointer;
 }
 #products .product-text ul li.active {
   opacity: 1;
@@ -168,31 +189,35 @@ canvas {
   line-height: 26px;
 }
 #products .product-text .wrapper {
-  width: 280px;
+  width: 350px;
   overflow: hidden;
+  border-left: 2px solid rgba(255, 255, 255, 0.31);
 }
 #products .product-text .wrapper .text-slider {
   width: 1200px;
   transform: translateX(0px);
-  transition: 1s ease;
+  transition: 0.5s cubic-bezier(0.85, 0.13, 0.1, 0.99);
 }
 #products .product-text .wrapper .text-slider p {
   display: block;
-  max-width: 280px;
+  max-width: 320px;
   float: left;
   margin-right: 40px;
-  font-size: 14px;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0.2px;
   font-weight: 400;
+  margin: 0 10px;
   color: white;
-  border-left: 2px solid aqua;
   padding-left: 10px;
+  transition: 0.5s ease;
 }
 .product-slider {
-  top: 21vh;
+  top: 23vh;
   position: absolute;
-  left: 290px;
+  left: 360px;
   background: url("/files/laptop-full.png") no-repeat;
-  background-size: 100% 100%;
+  background-size: 83%;
   width: 1024px;
   height: 580px;
 }
@@ -201,18 +226,17 @@ canvas {
   left: auto;
 }
 .product-slider .wrapper {
-  border: 1px solid red;
-  height: 415px;
-  width: 708px;
+  height: 344px;
+  width: 588px;
   position: absolute;
-  top: 67px;
-  left: 160px;
+  top: 56px;
+  left: 132px;
   overflow: hidden;
 }
 .product-slider .wrapper .slide-container {
   width: 3000px;
   transform: translateX(0px);
-  transition: 1s ease;
+  transition: 0.5s cubic-bezier(0.85, 0.13, 0.1, 0.99);
   height: 415px;
   float: left;
 }
@@ -220,10 +244,59 @@ canvas {
   display: block;
   float: left;
   margin-right: 40px;
+  transition: 0.5s ease;
 }
 .product-slider .wrapper .slide-container .slide img {
   height: 415px;
   width: 708px;
+}
+#edulastic.stage1 .text-slider {
+  transform: translateX(0px) !important;
+}
+#edulastic.stage1 .slide-container {
+  transform: translateX(0px) !important;
+}
+#edulastic.stage1 .first {
+  opacity: 1;
+}
+#edulastic.stage1 .second {
+  opacity: 0;
+}
+#edulastic.stage1 .third {
+  opacity: 0;
+}
+#edulastic.stage2 .text-slider {
+  transform: translateX(-350px) !important;
+}
+#edulastic.stage2 .slide-container {
+  transform: translateX(-750px) !important;
+}
+#edulastic.stage2 .first {
+  opacity: 0;
+}
+#edulastic.stage2 .second {
+  opacity: 1;
+}
+#edulastic.stage2 .third {
+  opacity: 0;
+}
+#edulastic.stage3 .text-slider {
+  transform: translateX(-700px) !important;
+}
+#edulastic.stage3 .slide-container {
+  transform: translateX(-1500px) !important;
+}
+#edulastic.stage3 .first {
+  opacity: 0;
+}
+#edulastic.stage3 .second {
+  opacity: 0;
+}
+#edulastic.stage3 .third {
+  opacity: 1;
+}
+#glider .product-slider {
+  background: none;
 }
 #team {
   height: 750px;

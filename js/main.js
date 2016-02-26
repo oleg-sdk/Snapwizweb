@@ -1,39 +1,32 @@
 
 
-$(document).on('touchend click', '#edulastic .link1', function(){
-  $('#edulastic').attr('class','stage1');
-  $('#edulastic .link1').addClass('active');
-  $('#edulastic .link2').removeClass('active');
-  $('#edulastic .link3').removeClass('active');
-
+$(document).on('touchend click', '#edulastic .link1, #glider .link1, #spaces .link1', function(){
+  $('#edulastic, #glider, #spaces').attr('class','stage1');
+  $('#edulastic .link1, #glider .link1, #spaces .link1').addClass('active');
+  $('#edulastic .link2, #glider .link2, #spaces .link2').removeClass('active');
+  $('#edulastic .link3, #glider .link3, #spaces .link3').removeClass('active');
 });
 
-$(document).on('touchend click', '#edulastic .link2', function(){
-  $('#edulastic').attr('class','stage2');
-  $('#edulastic .link1').removeClass('active');
-  $('#edulastic .link2').addClass('active');
-  $('#edulastic .link3').removeClass('active');
+$(document).on('touchend click', '#edulastic .link2, #glider .link2, #spaces .link2', function(){
+  $('#edulastic, #glider, #spaces').attr('class','stage2');
+  $('#edulastic .link1, #glider .link1, #spaces .link1').removeClass('active');
+  $('#edulastic .link2, #glider .link2, #spaces .link2').addClass('active');
+  $('#edulastic .link3, #glider .link3, #spaces .link3').removeClass('active');
 });
 
-$(document).on('touchend click', '#edulastic .link3', function(){
-  $('#edulastic').attr('class','stage3');
-  $('#edulastic .link1').removeClass('active');
-  $('#edulastic .link2').removeClass('active');
-  $('#edulastic .link3').addClass('active');
-});
-
-$(document).on('touchend click', '#edulastic .link3', function(){
-  $('#edulastic').attr('class','stage3');
-  $('#edulastic .link1').removeClass('active');
-  $('#edulastic .link2').removeClass('active');
-  $('#edulastic .link3').addClass('active');
+$(document).on('touchend click', '#edulastic .link3, #glider .link3, #spaces .link3', function(){
+  $('#edulastic, #glider, #spaces').attr('class','stage3');
+  $('#edulastic .link1, #glider .link1, #spaces .link1').removeClass('active');
+  $('#edulastic .link2, #glider .link2, #spaces .link2').removeClass('active');
+  $('#edulastic .link3, #glider .link3, #spaces .link3').addClass('active');
 });
 
 
 
 
 
-var range = 200;
+
+var range = 300;
 
 $(window).on('scroll', function () {
     var scrollTop = $(this).scrollTop();
