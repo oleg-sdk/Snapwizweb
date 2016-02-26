@@ -20,6 +20,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/files\/glider.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 300702,
+		"inputAbbreviatedPath": "\/files\/glider.png",
+		"outputAbbreviatedPath": "\/files\/glider.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/files\/iphone.png": {
 		"fileType": 32768,
 		"ignore": 0,

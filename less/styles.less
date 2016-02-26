@@ -140,39 +140,84 @@ section{
       background: linear-gradient(-123deg, #D85609 0%, #93B702 99%);
     }
   }
+
+  h2{
+    font-size: 40px;
+    color:white;
+    margin-bottom: 0px;
+    margin-top: 10vh;
+  }
+
+  p{
+    color: white;
+    font-size: 20px;
+    opacity: 0.7;
+    margin-top: 0px;
+  }
+
   .product{
     height: 100vh;
+    min-height: 700px;
     position: relative;
+    padding-bottom: 100px;
   }
+
+  .button{
+    color: white;
+    width: 150px;
+    border-radius: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+    text-align: center;
+    border: 1px solid white;
+  }
+
   .product-text{
     width: 350px;
-    margin-top: 25vh;
-    h2{
-      font-size: 50px;
-      color:white;
-    }
+    margin-top: 26vh;
     ul{
       color: white;
-      font-size: 20px;
+      font-size: 18px;
+      letter-spacing: 0.5px;
       list-style: none;
       padding-left: 5px;
       line-height: 36px;
+
       li{
         opacity: 0.5;
         transition: 0.3s ease;
         cursor: pointer;
+        &::before{
+          content: "";
+          float: left;
+          width: 10px;
+          height: 10px;
+          margin-top: 12px;
+          margin-right: 10px;
+          border-radius: 30px;
+          border: 1px solid white;
+          transition: 0.5s ease;
+        }
       }
-      li.active{opacity: 1;}
+      li.active{
+        opacity: 1;
+
+        &::before{
+          background: white;
+        }
+      }
     }
     p{
       color: white;
       font-size: 18px;
       line-height: 26px;
+      text-align: left;
     }
     .wrapper{
       width: 350px;
       overflow: hidden;
       border-left: 2px solid rgba(255, 255, 255, 0.31);
+      margin-bottom: 30px;
       .text-slider{
         width: 1200px;
         transform: translateX(0px);
@@ -182,9 +227,9 @@ section{
           max-width: 320px;
           float: left;
           margin-right: 40px;
-          font-size: 17px;
-          line-height: 26px;
-          letter-spacing: 0.2px;
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: 0.5px;
           font-weight: 400;
           margin: 0 10px;
           color: white;
@@ -196,23 +241,25 @@ section{
     }
   }
   .product-slider{
-    top: 23vh;
+    top: 30vh;
     position: absolute;
     left: 360px;
     background: url("/files/laptop-full.png") no-repeat;
-    background-size: 83%;
-    width: 1024px;
+    background-size: 100%;
+    width: 930px;
     height: 580px;
+    z-index: 0;
+    pointer-events: none;
     &.left{
-      right: 290px;
+      right: 350px;
       left: auto;
     }
     .wrapper{
-      height: 344px;
-      width: 588px;
+      height: 376px;
+      width: 644px;
       position: absolute;
-      top: 56px;
-      left: 132px;
+      top: 62px;
+      left: 145px;
       overflow: hidden;
       .slide-container{
         width: 3000px;
@@ -259,6 +306,20 @@ section{
 #glider{
   .product-slider{
     background: none;
+    top: 0vh;
+
+    .wrapper{
+      height: auto;
+      width: auto;
+    }
+    .slide-container{
+      height: auto;
+    }
+
+    img{
+      width: auto;
+      height: 800px;
+    }
   }
 }
 

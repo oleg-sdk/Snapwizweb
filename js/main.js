@@ -63,7 +63,8 @@ $(window).on('scroll', function () {
 
 $(window).scroll(function() {
    var scroll = $(window).scrollTop();
-   $(".particles").css('transform',  'translate3d(0px,-' + 0.2 * scroll + 'px, 0px)');
+   $(".particles").css('transform',  'translate3d(0px,-' + 0.8 * scroll + 'px, 0px)');
+   $("canvas").css('transform',  'translate3d(0px,' + 0.1 * scroll + 'px, 0px)');
 });
 
 
@@ -82,31 +83,30 @@ $(window).scroll(function() {
 //   $('.parallax-4').css('transform', 'translate3d(-'+ event.pageX / 10 + "px, -" + event.pageY / 90 + "px, 0px");
 // });
 
-// (function fadeInDiv(){
-//     var divs = $('.fadeIn');
-//     var divsize = ((Math.random()*3) + 1).toFixed();
-//     var posx = (Math.random() * ($(document).width() - divsize)).toFixed();
-//     var posy = (Math.random() * ($(document).height() - divsize)).toFixed();
-//     var maxSize = 8;
-//     var minSize = 7;
-//     var size = (Math.random()*maxSize+minSize);
-//     var elem = divs.eq(Math.floor(Math.random()*divs.length));
-//     if (!elem.is(':visible')){
-//         elem.fadeIn(Math.floor(Math.random()*250),fadeInDiv);
-//         elem.css({
-//             'transform':'translate3d('+posx+'px, '+posy+'px, 0px',
-//             'position':'absolute',
-//             'font-size': size+'px',
-//         });
-//     } else {
-//         elem.fadeOut(Math.floor(Math.random()*500),fadeInDiv);
-//     }
-// })();
+(function fadeInDiv(){
+    var divs = $('.fadeIn');
+    var posx = (Math.random() * 1400).toFixed();
+    var posy = (Math.random() * 1000).toFixed();
+    var maxSize = 20;
+    var minSize = 10;
+    var size = (Math.random()*maxSize+minSize);
+    var elem = divs.eq(Math.floor(Math.random()*divs.length));
+    if (!elem.is(':visible')){
+        elem.fadeIn(Math.floor(Math.random()*250),fadeInDiv);
+        elem.css({
+            'transform':'translate3d('+posx+'px, '+posy+'px, 0px',
+            'position':'absolute',
+            'font-size': size+'px',
+        });
+    } else {
+        elem.fadeOut(Math.floor(Math.random()*500),fadeInDiv);
+    }
+})();
 
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 700,
+      "value": 70,
       "density": {
         "enable": true,
         "value_area": 3206
@@ -116,7 +116,7 @@ particlesJS("particles-js", {
       "value": "#fff"
     },
     "shape": {
-      "type": "edge",
+      "type": "circle",
       "stroke": {
         "width": 0,
         "color": "#000000"
@@ -152,14 +152,14 @@ particlesJS("particles-js", {
     },
     "line_linked": {
       "enable": true,
-      "distance": 70,
+      "distance": 200,
       "color": "#ffffff",
-      "opacity": 0.2,
+      "opacity": 1,
       "width": 1
     },
     "move": {
       "enable": true,
-      "speed": 0.5,
+      "speed": 4,
       "direction": "none",
       "random": true,
       "straight": false,
