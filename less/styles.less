@@ -109,7 +109,7 @@ section{
       min-width: 240px;
       text-align: center;
       img{
-        width: 200px;
+        width: 250px;
       }
       h3{
         margin-top: 34px;
@@ -342,5 +342,30 @@ section{
     line-height: 1.4;
     font-weight: 100;
     color: #49494A;
+  }
+  .flex-team{
+    display: block;
+    //flex-flow: row wrap;
+    .member{
+      width: 20%;
+      position: relative;
+      overflow: hidden;
+      float: left;
+      img{
+        width:100%;
+        height:auto;
+      }
+      .member-hover{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid yellow; */
+        z-index: 3;
+        background-color: aqua;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+      }
+    }
   }
 }
