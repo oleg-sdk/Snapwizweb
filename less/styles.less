@@ -324,7 +324,7 @@ section{
 }
 
 #team{
-  height: 750px;
+  //height: 750px;
   .container{
     height:auto;
     margin-bottom: 60px;
@@ -346,6 +346,16 @@ section{
   .flex-team{
     display: block;
     //flex-flow: row wrap;
+    .join{
+      width: 20%;
+      position: relative;
+      overflow: hidden;
+      float: left;
+      img{
+        width:100%;
+        height:auto;
+      }
+    }
     .member{
       width: 20%;
       position: relative;
@@ -361,10 +371,52 @@ section{
         height: 100%;
         /* border: 1px solid yellow; */
         z-index: 3;
-        background-color: aqua;
+        background-color: rgba(234, 67, 54, 0.79);
         top: 0;
         bottom: 0;
         margin: auto;
+        .top{
+          position: absolute;
+          box-sizing: border-box;
+          top: 10px;
+          left: 10px;
+          padding: 10px;
+          p{
+            color: white;
+            text-align: left;
+            font-weight: 400;
+            font-size:14px;
+          }
+        }
+        .bottom{
+          position: absolute;
+          bottom: 10px;
+          left: 10px;
+          box-sizing: border-box;
+          padding: 10px;
+          h3{
+            font-size: 28px;
+            color: white;
+            margin-bottom: 5px;
+            line-height: 0.9;
+          }
+          p{
+            font-weight: 400;
+            color: white;
+            text-align: left;
+            font-size: 16px;
+          }
+        }
+        .member-info{
+          display: block;
+          position: absolute;
+          height: 30px;
+          width: 30px;
+          background-color: aqua;
+          right: 20px;
+          top: 20px;
+        }
+
       }
     }
   }
