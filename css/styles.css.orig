@@ -284,6 +284,10 @@ canvas {
 #products .product-text .wrapper .text-slider {
   width: 1200px;
   -webkit-transform: translateX(0px);
+<<<<<<< HEAD
+=======
+      -ms-transform: translateX(0px);
+>>>>>>> b7e5cab26ef93b40364e04500155e6521a0c7885
           transform: translateX(0px);
   -webkit-transition: 0.5s cubic-bezier(0.85, 0.13, 0.1, 0.99);
   transition: 0.5s cubic-bezier(0.85, 0.13, 0.1, 0.99);
@@ -329,6 +333,10 @@ canvas {
 .product-slider .wrapper .slide-container {
   width: 3000px;
   -webkit-transform: translateX(0px);
+<<<<<<< HEAD
+=======
+      -ms-transform: translateX(0px);
+>>>>>>> b7e5cab26ef93b40364e04500155e6521a0c7885
           transform: translateX(0px);
   -webkit-transition: 0.5s cubic-bezier(0.85, 0.13, 0.1, 0.99);
   transition: 0.5s cubic-bezier(0.85, 0.13, 0.1, 0.99);
@@ -348,10 +356,18 @@ canvas {
 }
 #edulastic.stage1 .text-slider {
   -webkit-transform: translateX(0px) !important;
+<<<<<<< HEAD
+=======
+      -ms-transform: translateX(0px) !important;
+>>>>>>> b7e5cab26ef93b40364e04500155e6521a0c7885
           transform: translateX(0px) !important;
 }
 #edulastic.stage1 .slide-container {
   -webkit-transform: translateX(0px) !important;
+<<<<<<< HEAD
+=======
+      -ms-transform: translateX(0px) !important;
+>>>>>>> b7e5cab26ef93b40364e04500155e6521a0c7885
           transform: translateX(0px) !important;
 }
 #edulastic.stage1 .first {
@@ -365,10 +381,18 @@ canvas {
 }
 #edulastic.stage2 .text-slider {
   -webkit-transform: translateX(-350px) !important;
+<<<<<<< HEAD
+=======
+      -ms-transform: translateX(-350px) !important;
+>>>>>>> b7e5cab26ef93b40364e04500155e6521a0c7885
           transform: translateX(-350px) !important;
 }
 #edulastic.stage2 .slide-container {
   -webkit-transform: translateX(-750px) !important;
+<<<<<<< HEAD
+=======
+      -ms-transform: translateX(-750px) !important;
+>>>>>>> b7e5cab26ef93b40364e04500155e6521a0c7885
           transform: translateX(-750px) !important;
 }
 #edulastic.stage2 .first {
@@ -382,10 +406,18 @@ canvas {
 }
 #edulastic.stage3 .text-slider {
   -webkit-transform: translateX(-700px) !important;
+<<<<<<< HEAD
+=======
+      -ms-transform: translateX(-700px) !important;
+>>>>>>> b7e5cab26ef93b40364e04500155e6521a0c7885
           transform: translateX(-700px) !important;
 }
 #edulastic.stage3 .slide-container {
   -webkit-transform: translateX(-1500px) !important;
+<<<<<<< HEAD
+=======
+      -ms-transform: translateX(-1500px) !important;
+>>>>>>> b7e5cab26ef93b40364e04500155e6521a0c7885
           transform: translateX(-1500px) !important;
 }
 #edulastic.stage3 .first {
@@ -439,20 +471,6 @@ canvas {
   overflow: hidden;
   float: left;
 }
-#team .flex-team .join p {
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  left: 0;
-  right: 0;
-  /* width: 140px; */
-  height: 30px;
-  color: white;
-  font-size: 20px;
-  font-weight: 700;
-}
 #team .flex-team .join img {
   width: 100%;
   height: auto;
@@ -471,13 +489,14 @@ canvas {
   position: absolute;
   width: 100%;
   height: 100%;
-  opacity: 0;
+  /* border: 1px solid yellow; */
   z-index: 3;
   background-color: rgba(234, 67, 54, 0.79);
   top: 0;
   bottom: 0;
   margin: auto;
 }
+<<<<<<< HEAD
 #team .flex-team .member .member-hover .top {
   position: absolute;
   box-sizing: border-box;
@@ -518,7 +537,7 @@ canvas {
   background-color: aqua;
   right: 20px;
   top: 20px;
-}
+=======
 @media screen and (max-width: 930px) {
   .product-slider {
     display: -webkit-box;
@@ -531,9 +550,11 @@ canvas {
             justify-content: center;
     top: 10vh !important;
     -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
             transform: scale(0.8);
   }
   .product-text {
     margin-top: 60vh !important;
   }
+>>>>>>> b7e5cab26ef93b40364e04500155e6521a0c7885
 }
