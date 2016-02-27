@@ -97,6 +97,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/files\/pattern1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 338819,
+		"inputAbbreviatedPath": "\/files\/pattern1.png",
+		"outputAbbreviatedPath": "\/files\/pattern1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/files\/pattern2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 153397,
+		"inputAbbreviatedPath": "\/files\/pattern2.png",
+		"outputAbbreviatedPath": "\/files\/pattern2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/files\/pattern3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 174787,
+		"inputAbbreviatedPath": "\/files\/pattern3.png",
+		"outputAbbreviatedPath": "\/files\/pattern3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/files\/professional.png": {
 		"fileType": 32768,
 		"ignore": 0,
