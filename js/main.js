@@ -1,28 +1,67 @@
-
-
-$(document).on('touchend click', '#edulastic .link1, #glider .link1, #spaces .link1', function(){
-  $('#edulastic, #glider, #spaces').attr('class','stage1');
-  $('#edulastic .link1, #glider .link1, #spaces .link1').addClass('active');
-  $('#edulastic .link2, #glider .link2, #spaces .link2').removeClass('active');
-  $('#edulastic .link3, #glider .link3, #spaces .link3').removeClass('active');
+$(document).on('touchend click', '#edulastic .link1', function(){
+  $('#edulastic').attr('class','stage1');
+  $('#edulastic .link1').addClass('active');
+  $('#edulastic .link2').removeClass('active');
+  $('#edulastic .link3').removeClass('active');
 });
 
-$(document).on('touchend click', '#edulastic .link2, #glider .link2, #spaces .link2', function(){
-  $('#edulastic, #glider, #spaces').attr('class','stage2');
-  $('#edulastic .link1, #glider .link1, #spaces .link1').removeClass('active');
-  $('#edulastic .link2, #glider .link2, #spaces .link2').addClass('active');
-  $('#edulastic .link3, #glider .link3, #spaces .link3').removeClass('active');
+$(document).on('touchend click', '#edulastic .link2', function(){
+  $('#edulastic').attr('class','stage2');
+  $('#edulastic .link1').removeClass('active');
+  $('#edulastic .link2').addClass('active');
+  $('#edulastic .link3').removeClass('active');
 });
 
-$(document).on('touchend click', '#edulastic .link3, #glider .link3, #spaces .link3', function(){
-  $('#edulastic, #glider, #spaces').attr('class','stage3');
-  $('#edulastic .link1, #glider .link1, #spaces .link1').removeClass('active');
-  $('#edulastic .link2, #glider .link2, #spaces .link2').removeClass('active');
-  $('#edulastic .link3, #glider .link3, #spaces .link3').addClass('active');
+$(document).on('touchend click', '#edulastic .link3', function(){
+  $('#edulastic').attr('class','stage3');
+  $('#edulastic .link1').removeClass('active');
+  $('#edulastic .link2').removeClass('active');
+  $('#edulastic .link3').addClass('active');
 });
 
 
+$(document).on('touchend click', '#glider .link1', function(){
+  $('#glider').attr('class','stage1');
+  $('#glider .link1').addClass('active');
+  $('#glider .link2').removeClass('active');
+  $('#glider .link3').removeClass('active');
+});
 
+$(document).on('touchend click', '#edulastic .link2', function(){
+  $('#glider').attr('class','stage2');
+  $('#glider .link1').removeClass('active');
+  $('#glider .link2').addClass('active');
+  $('#glider .link3').removeClass('active');
+});
+
+$(document).on('touchend click', '#edulastic .link3', function(){
+  $('#glider').attr('class','stage3');
+  $('#glider .link1').removeClass('active');
+  $('#glider .link2').removeClass('active');
+  $('#glider .link3').addClass('active');
+});
+
+
+$(document).on('touchend click', '#spaces .link1', function(){
+  $('#spaces').attr('class','stage1');
+  $('#spaces .link1').addClass('active');
+  $('#spaces .link2').removeClass('active');
+  $('#spaces .link3').removeClass('active');
+});
+
+$(document).on('touchend click', '#spaces .link2', function(){
+  $('#spaces').attr('class','stage2');
+  $('#spaces .link1').removeClass('active');
+  $('#spaces .link2').addClass('active');
+  $('#spaces .link3').removeClass('active');
+});
+
+$(document).on('touchend click', '#edulastic .link3', function(){
+  $('#spaces').attr('class','stage3');
+  $('#spaces .link1').removeClass('active');
+  $('#spaces .link2').removeClass('active');
+  $('#spaces .link3').addClass('active');
+});
 
 
 
@@ -94,7 +133,7 @@ $(window).scroll(function() {
     if (!elem.is(':visible')){
         elem.fadeIn(Math.floor(Math.random()*250),fadeInDiv);
         elem.css({
-            'transform':'translate3d('+posx+'px, '+posy+'px, 0px',
+            '-webkit-transform':'translate3d('+posx+'px, '+posy+'px, 0px',
             'position':'absolute',
             'font-size': size+'px',
         });
@@ -159,7 +198,7 @@ particlesJS("particles-js", {
     },
     "move": {
       "enable": true,
-      "speed": 4,
+      "speed": 3,
       "direction": "none",
       "random": true,
       "straight": false,
@@ -176,7 +215,7 @@ particlesJS("particles-js", {
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": false,
+        "enable": true,
         "mode": "grab"
       },
       "onclick": {
