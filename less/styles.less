@@ -23,10 +23,22 @@ section{
   position: relative;
   padding: 0px 40px;
   border: 1px solid rgba(255, 0, 0, 0);
+
 }
 .right{
   float:right;
   right:0;
+}
+
+@-webkit-keyframes SlideInDown {
+  0% {
+    transform: translate3d(0px, 20px, 0px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate3d(0px, 0px, 0px);
+    opacity: 1;
+  }
 }
 
 .header{
@@ -42,6 +54,9 @@ section{
     position: absolute;
     top: 30px;
     left: 30px;
+    animation: SlideInDown 1s;
+    animation-delay: 0.1s;
+    animation-fill-mode: both;
   }
   a{
     display:block;
@@ -56,23 +71,36 @@ section{
 #intro{
   height: 100vh;
   //height: calc(~"100vh - 80px");
-  border: 1px solid black;
   .intro{
     margin-top: 35vh;
-    max-width: 600px;
+    max-width: 630px;
     h1{
       font-size: 55px;
       font-weight: 900;
-      line-height: 1;
+      line-height: 71px;
       color:white;
-      margin-bottom: 20px;
+      display: inline;
+      white-space: pre-wrap;
+      margin-bottom: 0px;
+      background: rgba(1, 5, 35, 0.55);
+      padding: 4px 0px;
+      animation: SlideInDown 1s;
+      animation-delay: 0.2s;
+      animation-fill-mode: both;
     }
     p{
       font-size: 23px;
-      line-height: 1.4;
+      line-height: 45px;
       letter-spacing: 0.5px;
       font-weight: 100;
-      color: rgba(255, 255, 255, 0.5);
+      background: rgba(1, 5, 35, 0.55);
+      display: inline;
+      white-space: pre-wrap;
+      border: 10px solid rgba(1, 5, 35, 0);
+      color: rgba(255, 255, 255, 0.68);
+      animation: SlideInDown 1s;
+      animation-delay: 0.3s;
+      animation-fill-mode: both;
     }
   }
 }
@@ -187,6 +215,7 @@ section{
         opacity: 0.5;
         transition: 0.3s ease;
         cursor: pointer;
+        display: block;
         &::before{
           content: "";
           float: left;
@@ -419,5 +448,18 @@ section{
 
       }
     }
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .product-slider{
+    display: flex;
+    justify-content: center;
+    top: 10vh !important;
+    transform: scale(0.8);
+  }
+
+  .product-text{
+    margin-top: 60vh !important;
   }
 }
