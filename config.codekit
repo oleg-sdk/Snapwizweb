@@ -20,6 +20,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/files\/barrons.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51154,
+		"inputAbbreviatedPath": "\/files\/barrons.png",
+		"outputAbbreviatedPath": "\/files\/barrons.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/files\/dummies.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37952,
+		"inputAbbreviatedPath": "\/files\/dummies.png",
+		"outputAbbreviatedPath": "\/files\/dummies.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/files\/glider.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -82,6 +104,17 @@
 		"initialSize": 45725,
 		"inputAbbreviatedPath": "\/files\/logo.png",
 		"outputAbbreviatedPath": "\/files\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/files\/mgh.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6568,
+		"inputAbbreviatedPath": "\/files\/mgh.png",
+		"outputAbbreviatedPath": "\/files\/mgh.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -269,6 +302,17 @@
 		"initialSize": 590224,
 		"inputAbbreviatedPath": "\/files\/university.png",
 		"outputAbbreviatedPath": "\/files\/university.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/files\/wiley.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17919,
+		"inputAbbreviatedPath": "\/files\/wiley.png",
+		"outputAbbreviatedPath": "\/files\/wiley.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

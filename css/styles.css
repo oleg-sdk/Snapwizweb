@@ -194,16 +194,16 @@ canvas {
   height: 100%;
 }
 #products .products-bg.bg-green {
-  background: url("/files/pattern1.png"), -webkit-linear-gradient(213deg, #006C72 0%, #04ED61 99%);
-  background: url("/files/pattern1.png"), linear-gradient(-123deg, #006C72 0%, #04ED61 99%);
+  background: -webkit-linear-gradient(213deg, #006C72 0%, #04ED61 99%);
+  background: linear-gradient(-123deg, #006C72 0%, #04ED61 99%);
 }
 #products .products-bg.bg-purple {
-  background: url("/files/pattern3.png"), -webkit-linear-gradient(213deg, #043261 0%, #00B4F9 99%);
-  background: url("/files/pattern3.png"), linear-gradient(-123deg, #043261 0%, #00B4F9 99%);
+  background: -webkit-linear-gradient(213deg, #043261 0%, #00B4F9 99%);
+  background: linear-gradient(-123deg, #043261 0%, #00B4F9 99%);
 }
 #products .products-bg.bg-orange {
-  background: url("/files/pattern2.png"), -webkit-linear-gradient(213deg, #D85609 0%, #93B702 99%);
-  background: url("/files/pattern2.png"), linear-gradient(-123deg, #D85609 0%, #93B702 99%);
+  background: -webkit-linear-gradient(213deg, #D85609 0%, #93B702 99%);
+  background: linear-gradient(-123deg, #D85609 0%, #93B702 99%);
 }
 #products h2 {
   font-size: 40px;
@@ -437,6 +437,7 @@ canvas {
 #team .flex-team {
   display: block;
 }
+#team .flex-team .member,
 #team .flex-team .join {
   width: 20%;
   position: relative;
@@ -447,11 +448,20 @@ canvas {
   width: 100%;
   height: auto;
 }
-#team .flex-team .member {
-  width: 25%;
-  position: relative;
-  overflow: hidden;
-  float: left;
+#team .flex-team .join a {
+  color: white;
+  font-weight: 600;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 20px;
+  margin: auto;
+  display: block;
+  text-align: center;
+  text-decoration: none;
 }
 #team .flex-team .member img {
   width: 100%;
@@ -529,12 +539,23 @@ canvas {
   margin-bottom: 30px;
 }
 #partners p {
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
   font-size: 20px;
   line-height: 1.4;
   font-weight: 100;
   color: #49494A;
+}
+#partners hr {
+  width: 65%;
+  margin: 20px auto 60px;
+  border: 0;
+  border-top: 1px solid #E6E6E6;
+}
+#partners .testimonial {
+  min-height: 100px;
+  display: block;
+  margin-bottom: 40px;
 }
 #partners .testimonial .face {
   height: 100;
@@ -546,7 +567,6 @@ canvas {
   width: 100px;
 }
 #partners .testimonial .quote {
-  text-align: left;
   display: block;
   float: left;
   max-width: 80%;
@@ -558,18 +578,47 @@ canvas {
   font-style: italic;
   font-weight: 600;
   margin-top: 10px;
-  display: block;
-  width: 150px;
-  float: left;
 }
 #partners .testimonial .quote p.partner span {
   font-size: 14px;
-  font-style: italic;
   font-weight: 400;
-  display: block;
-  width: 250px;
-  float: left;
   color: #504E4E;
+}
+#partners .partner-logos {
+  min-height: 100px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+#partners .partner-logos .column {
+  position: relative;
+  text-align: center;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 25%;
+  box-sizing: border-box;
+}
+#partners .partner-logos .column.first {
+  text-align: left;
+}
+#partners .partner-logos .column.first img {
+  margin-top: 5px;
+}
+#partners .partner-logos .column.second img {
+  max-height: 100px;
+}
+#partners .partner-logos .column.third img {
+  margin-top: 5px;
+}
+#partners .partner-logos .column.fourth {
+  text-align: right;
+}
+#partners .partner-logos .column.fourth img {
+  height: 100px;
+}
+#partners .partner-logos .column img {
+  max-width: 100%;
+  height: auto;
 }
 @media screen and (max-width: 930px) {
   .product-slider {
