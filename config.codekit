@@ -97,6 +97,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/files\/partner.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53968,
+		"inputAbbreviatedPath": "\/files\/partner.png",
+		"outputAbbreviatedPath": "\/files\/partner.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/files\/pattern1.png": {
 		"fileType": 32768,
 		"ignore": 0,

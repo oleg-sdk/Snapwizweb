@@ -288,7 +288,6 @@ canvas {
 #products .product-text .wrapper .text-slider {
   width: 1200px;
   -webkit-transform: translateX(0px);
-      -ms-transform: translateX(0px);
           transform: translateX(0px);
   -webkit-transition: 0.5s cubic-bezier(0.85, 0.13, 0.1, 0.99);
   transition: 0.5s cubic-bezier(0.85, 0.13, 0.1, 0.99);
@@ -334,7 +333,6 @@ canvas {
 .product-slider .wrapper .slide-container {
   width: 3000px;
   -webkit-transform: translateX(0px);
-      -ms-transform: translateX(0px);
           transform: translateX(0px);
   -webkit-transition: 0.5s cubic-bezier(0.85, 0.13, 0.1, 0.99);
   transition: 0.5s cubic-bezier(0.85, 0.13, 0.1, 0.99);
@@ -354,12 +352,10 @@ canvas {
 }
 #edulastic.stage1 .text-slider {
   -webkit-transform: translateX(0px) !important;
-      -ms-transform: translateX(0px) !important;
           transform: translateX(0px) !important;
 }
 #edulastic.stage1 .slide-container {
   -webkit-transform: translateX(0px) !important;
-      -ms-transform: translateX(0px) !important;
           transform: translateX(0px) !important;
 }
 #edulastic.stage1 .first {
@@ -373,12 +369,10 @@ canvas {
 }
 #edulastic.stage2 .text-slider {
   -webkit-transform: translateX(-350px) !important;
-      -ms-transform: translateX(-350px) !important;
           transform: translateX(-350px) !important;
 }
 #edulastic.stage2 .slide-container {
   -webkit-transform: translateX(-750px) !important;
-      -ms-transform: translateX(-750px) !important;
           transform: translateX(-750px) !important;
 }
 #edulastic.stage2 .first {
@@ -392,12 +386,10 @@ canvas {
 }
 #edulastic.stage3 .text-slider {
   -webkit-transform: translateX(-700px) !important;
-      -ms-transform: translateX(-700px) !important;
           transform: translateX(-700px) !important;
 }
 #edulastic.stage3 .slide-container {
   -webkit-transform: translateX(-1500px) !important;
-      -ms-transform: translateX(-1500px) !important;
           transform: translateX(-1500px) !important;
 }
 #edulastic.stage3 .first {
@@ -473,7 +465,6 @@ canvas {
 }
 #team .flex-team .member:hover img {
   -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-filter: saturate(100%);
 }
@@ -531,6 +522,55 @@ canvas {
   right: 20px;
   top: 20px;
 }
+#partners h2 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+#partners p {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 100;
+  color: #49494A;
+}
+#partners .testimonial .face {
+  height: 100;
+  width: 100px;
+  display: block;
+  float: left;
+}
+#partners .testimonial .face img {
+  width: 100px;
+}
+#partners .testimonial .quote {
+  text-align: left;
+  display: block;
+  float: left;
+  max-width: 80%;
+  margin-left: 44px;
+  margin-top: 9px;
+}
+#partners .testimonial .quote p.partner {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  margin-top: 10px;
+  display: block;
+  width: 150px;
+  float: left;
+}
+#partners .testimonial .quote p.partner span {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  display: block;
+  width: 250px;
+  float: left;
+  color: #504E4E;
+}
 @media screen and (max-width: 930px) {
   .product-slider {
     display: -webkit-box;
@@ -543,7 +583,6 @@ canvas {
             justify-content: center;
     top: 10vh !important;
     -webkit-transform: scale(0.8);
-        -ms-transform: scale(0.8);
             transform: scale(0.8);
   }
   #team .flex-team .member {
