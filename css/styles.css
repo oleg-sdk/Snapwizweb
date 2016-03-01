@@ -532,6 +532,9 @@ canvas {
   right: 20px;
   top: 20px;
 }
+#partners .container {
+  height: auto;
+}
 #partners h2 {
   text-align: center;
   font-size: 50px;
@@ -587,7 +590,7 @@ canvas {
 #partners .partner-logos {
   min-height: 100px;
   box-sizing: border-box;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 #partners .partner-logos .column {
   position: relative;
@@ -619,6 +622,198 @@ canvas {
 #partners .partner-logos .column img {
   max-width: 100%;
   height: auto;
+}
+#footer {
+  background-color: #EA4336;
+}
+#footer .container {
+  height: auto;
+}
+#footer .container h2 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  color: white;
+}
+#footer .container h3 {
+  color: white;
+  font-size: 30px;
+  display: block;
+  width: auto;
+  float: left;
+  margin-top: auto;
+  margin-right: 40px;
+}
+#footer .container form,
+#footer .container .contact-details {
+  width: 50%;
+  display: block;
+  float: left;
+  box-sizing: border-box;
+}
+#footer .container form {
+  padding-right: 40px;
+  border-right: 1px solid #C3362B;
+}
+#footer .container form .top-row .office {
+  height: 40px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+#footer .container form .top-row .office select {
+  display: block;
+  height: 34px;
+  border: 2px solid #fff;
+  color: #fff;
+  background: 0 0;
+  font-size: 16px;
+  float: right;
+  font-weight: 600;
+}
+#footer .container form .input-row {
+  display: inline-block;
+  width: 100%;
+}
+#footer .container form .input-row .name,
+#footer .container form .input-row .email {
+  display: block;
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+#footer .container form .input-row .name input,
+#footer .container form .input-row .email input {
+  height: 34px;
+  font-size: 14px;
+  padding-left: 15px;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+}
+#footer .container form .input-row .name {
+  padding-right: 10px;
+}
+#footer .container form .input-row .email {
+  padding-left: 10px;
+}
+#footer .container form .message {
+  display: block;
+  box-sizing: border-box;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+#footer .container form .message textarea {
+  width: 100%;
+  height: 100px;
+  padding-left: 15px;
+  padding-top: 7px;
+  font-size: 14px;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+#footer .container form button {
+  border: 2px solid #fff;
+  color: #fff;
+  background: 0 0;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  float: right;
+  padding: 6px 34px;
+}
+#footer .container .contact-details {
+  padding-left: 40px;
+}
+#footer .container .contact-details h3 {
+  width: 100%;
+}
+#footer .container .contact-details h4 {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  margin: auto;
+  margin-bottom: 10px;
+}
+#footer .container .contact-details a {
+  color: #6D1D17;
+  font-size: 14px;
+}
+#footer .container .contact-details a.address {
+  text-decoration: none;
+}
+#footer .container .contact-details p {
+  color: #6D1D17;
+  font-size: 14px;
+  margin: auto;
+}
+#footer .container .contact-details p.title {
+  margin: auto;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #84231B;
+}
+#footer .container .contact-details p.title.small {
+  font-size: 16px;
+  margin-top: 20px;
+}
+#footer .container .contact-details .us,
+#footer .container .contact-details .india {
+  box-sizing: border-box;
+  float: left;
+}
+#footer .container .contact-details .us {
+  width: 40%;
+  padding-right: 15px;
+}
+#footer .container .contact-details .india {
+  width: 60%;
+  padding-left: 15px;
+}
+#footer .container .copyright {
+  width: auto;
+  display: block;
+  float: right;
+  font-size: 12px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  color: #84231B;
+}
+#footer .container .copyright p {
+  margin: auto;
+}
+#footer .container .social {
+  width: auto;
+  display: block;
+  float: left;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+#footer .container .social a {
+  display: block;
+  float: left;
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+}
+#footer .container .social a.fb {
+  background: url("../files/facebook.svg") no-repeat;
+  background-size: 15px 15px;
+}
+#footer .container .social a.tw {
+  background: url("../files/twitter.svg") no-repeat;
+  background-size: 16px 16px;
+  margin-right: 7px;
+}
+#footer .container .social a.in {
+  background: url("../files/linkedin.svg") no-repeat;
+  background-size: 15px 15px;
 }
 @media screen and (max-width: 930px) {
   .product-slider {
