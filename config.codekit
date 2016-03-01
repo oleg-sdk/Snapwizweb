@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19102",
+"creatorBuild": "19115",
 "files": {
 	"\/css\/particles.css": {
 		"fileType": 16,
@@ -19,6 +19,28 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/files\/barrons.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51154,
+		"inputAbbreviatedPath": "\/files\/barrons.png",
+		"outputAbbreviatedPath": "\/files\/barrons.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/files\/dummies.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37952,
+		"inputAbbreviatedPath": "\/files\/dummies.png",
+		"outputAbbreviatedPath": "\/files\/dummies.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/files\/glider.png": {
 		"fileType": 32768,
@@ -86,6 +108,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/files\/mgh.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6568,
+		"inputAbbreviatedPath": "\/files\/mgh.png",
+		"outputAbbreviatedPath": "\/files\/mgh.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/files\/orion1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -93,6 +126,17 @@
 		"initialSize": 24963,
 		"inputAbbreviatedPath": "\/files\/orion1.jpg",
 		"outputAbbreviatedPath": "\/files\/orion1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/files\/partner.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53968,
+		"inputAbbreviatedPath": "\/files\/partner.png",
+		"outputAbbreviatedPath": "\/files\/partner.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -262,6 +306,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/files\/wiley.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17919,
+		"inputAbbreviatedPath": "\/files\/wiley.png",
+		"outputAbbreviatedPath": "\/files\/wiley.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/includes\/head.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -402,7 +457,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Tyurin Alexander",
+"lastSavedByUser": "Oleg Serediuc",
 "manualImportLinks": {
 	},
 "projectAttributes": {
