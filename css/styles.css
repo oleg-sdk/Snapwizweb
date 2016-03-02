@@ -194,16 +194,16 @@ canvas {
   height: 100%;
 }
 #products .products-bg.bg-green {
-  background: -webkit-linear-gradient(213deg, #006C72 0%, #04ED61 99%);
-  background: linear-gradient(-123deg, #006C72 0%, #04ED61 99%);
+  background: -webkit-linear-gradient(225deg, #10B151 0%, #006C72 99%);
+  background: linear-gradient(-135deg, #10B151 0%, #006C72 99%);
 }
 #products .products-bg.bg-purple {
-  background: -webkit-linear-gradient(213deg, #043261 0%, #00B4F9 99%);
-  background: linear-gradient(-123deg, #043261 0%, #00B4F9 99%);
+  background: -webkit-linear-gradient(213deg, #022035 0%, #6F2F61 99%);
+  background: linear-gradient(-123deg, #022035 0%, #6F2F61 99%);
 }
 #products .products-bg.bg-orange {
-  background: -webkit-linear-gradient(213deg, #D85609 0%, #93B702 99%);
-  background: linear-gradient(-123deg, #D85609 0%, #93B702 99%);
+  background: -webkit-linear-gradient(219deg, #C3EF16 0%, #F37A24 99%);
+  background: linear-gradient(-129deg, #C3EF16 0%, #F37A24 99%);
 }
 #products h2 {
   font-size: 40px;
@@ -399,120 +399,6 @@ canvas {
   opacity: 0;
 }
 #edulastic.stage3 .third {
-  opacity: 1;
-}
-#glider.stage1 .text-slider {
-  -webkit-transform: translateX(0px) !important;
-      -ms-transform: translateX(0px) !important;
-          transform: translateX(0px) !important;
-}
-#glider.stage1 .slide-container {
-  -webkit-transform: translateX(0px) !important;
-      -ms-transform: translateX(0px) !important;
-          transform: translateX(0px) !important;
-}
-#glider.stage1 .first {
-  opacity: 1;
-}
-#glider.stage1 .second {
-  opacity: 0;
-}
-#glider.stage1 .third {
-  opacity: 0;
-}
-#glider.stage2 .text-slider {
-  -webkit-transform: translateX(-350px) !important;
-      -ms-transform: translateX(-350px) !important;
-          transform: translateX(-350px) !important;
-}
-#glider.stage2 .slide-container {
-  -webkit-transform: translateX(-750px) !important;
-      -ms-transform: translateX(-750px) !important;
-          transform: translateX(-750px) !important;
-}
-#glider.stage2 .first {
-  opacity: 0;
-}
-#glider.stage2 .second {
-  opacity: 1;
-}
-#glider.stage2 .third {
-  opacity: 0;
-}
-#glider.stage3 .text-slider {
-  -webkit-transform: translateX(-700px) !important;
-      -ms-transform: translateX(-700px) !important;
-          transform: translateX(-700px) !important;
-}
-#glider.stage3 .slide-container {
-  -webkit-transform: translateX(-1500px) !important;
-      -ms-transform: translateX(-1500px) !important;
-          transform: translateX(-1500px) !important;
-}
-#glider.stage3 .first {
-  opacity: 0;
-}
-#glider.stage3 .second {
-  opacity: 0;
-}
-#glider.stage3 .third {
-  opacity: 1;
-}
-#spaces.stage1 .text-slider {
-  -webkit-transform: translateX(0px) !important;
-      -ms-transform: translateX(0px) !important;
-          transform: translateX(0px) !important;
-}
-#spaces.stage1 .slide-container {
-  -webkit-transform: translateX(0px) !important;
-      -ms-transform: translateX(0px) !important;
-          transform: translateX(0px) !important;
-}
-#spaces.stage1 .first {
-  opacity: 1;
-}
-#spaces.stage1 .second {
-  opacity: 0;
-}
-#spaces.stage1 .third {
-  opacity: 0;
-}
-#spaces.stage2 .text-slider {
-  -webkit-transform: translateX(-350px) !important;
-      -ms-transform: translateX(-350px) !important;
-          transform: translateX(-350px) !important;
-}
-#spaces.stage2 .slide-container {
-  -webkit-transform: translateX(-750px) !important;
-      -ms-transform: translateX(-750px) !important;
-          transform: translateX(-750px) !important;
-}
-#spaces.stage2 .first {
-  opacity: 0;
-}
-#spaces.stage2 .second {
-  opacity: 1;
-}
-#spaces.stage2 .third {
-  opacity: 0;
-}
-#spaces.stage3 .text-slider {
-  -webkit-transform: translateX(-700px) !important;
-      -ms-transform: translateX(-700px) !important;
-          transform: translateX(-700px) !important;
-}
-#spaces.stage3 .slide-container {
-  -webkit-transform: translateX(-1500px) !important;
-      -ms-transform: translateX(-1500px) !important;
-          transform: translateX(-1500px) !important;
-}
-#spaces.stage3 .first {
-  opacity: 0;
-}
-#spaces.stage3 .second {
-  opacity: 0;
-}
-#spaces.stage3 .third {
   opacity: 1;
 }
 #glider .product-slider {
