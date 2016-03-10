@@ -27,14 +27,14 @@ $(document).on('touchend click', '#glider .link1', function(){
   $('#glider .link3').removeClass('active');
 });
 
-$(document).on('touchend click', '#edulastic .link2', function(){
+$(document).on('touchend click', '#glider .link2', function(){
   $('#glider').attr('class','stage2');
   $('#glider .link1').removeClass('active');
   $('#glider .link2').addClass('active');
   $('#glider .link3').removeClass('active');
 });
 
-$(document).on('touchend click', '#edulastic .link3', function(){
+$(document).on('touchend click', '#glider .link3', function(){
   $('#glider').attr('class','stage3');
   $('#glider .link1').removeClass('active');
   $('#glider .link2').removeClass('active');
@@ -56,7 +56,7 @@ $(document).on('touchend click', '#spaces .link2', function(){
   $('#spaces .link3').removeClass('active');
 });
 
-$(document).on('touchend click', '#edulastic .link3', function(){
+$(document).on('touchend click', '#spaces .link3', function(){
   $('#spaces').attr('class','stage3');
   $('#spaces .link1').removeClass('active');
   $('#spaces .link2').removeClass('active');
