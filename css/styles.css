@@ -93,6 +93,38 @@ canvas {
 #intro {
   height: 100vh;
 }
+#intro .fadeIn {
+  opacity: 0.8;
+}
+#intro .beta,
+#intro .log {
+  font-size: 16px;
+}
+#intro .square,
+#intro .brakets {
+  font-size: 20px;
+}
+#intro .script {
+  font-size: 42px;
+}
+#intro .chemo,
+#intro .i,
+#intro .l {
+  font-size: 50px;
+}
+#intro .column,
+#intro .epsi {
+  font-size: 14px;
+}
+#intro .f {
+  font-size: 62px;
+}
+#intro .percent,
+#intro .pi,
+#intro .plus,
+#intro .minus {
+  font-size: 12px;
+}
 #intro .intro {
   margin-top: 35vh;
   max-width: 630px;
@@ -286,7 +318,6 @@ canvas {
 #products .product-text .wrapper .text-slider {
   width: 1200px;
   -webkit-transform: translateX(0px);
-      -ms-transform: translateX(0px);
           transform: translateX(0px);
   -webkit-transition: 0.5s cubic-bezier(0.85, 0.13, 0.1, 0.99);
   transition: 0.5s cubic-bezier(0.85, 0.13, 0.1, 0.99);
@@ -332,7 +363,6 @@ canvas {
 .product-slider .wrapper .slide-container {
   width: 3000px;
   -webkit-transform: translateX(0px);
-      -ms-transform: translateX(0px);
           transform: translateX(0px);
   -webkit-transition: 0.5s cubic-bezier(0.85, 0.13, 0.1, 0.99);
   transition: 0.5s cubic-bezier(0.85, 0.13, 0.1, 0.99);
@@ -352,12 +382,10 @@ canvas {
 }
 #edulastic.stage1 .text-slider {
   -webkit-transform: translateX(0px) !important;
-      -ms-transform: translateX(0px) !important;
           transform: translateX(0px) !important;
 }
 #edulastic.stage1 .slide-container {
   -webkit-transform: translateX(0px) !important;
-      -ms-transform: translateX(0px) !important;
           transform: translateX(0px) !important;
 }
 #edulastic.stage1 .first {
@@ -371,12 +399,10 @@ canvas {
 }
 #edulastic.stage2 .text-slider {
   -webkit-transform: translateX(-350px) !important;
-      -ms-transform: translateX(-350px) !important;
           transform: translateX(-350px) !important;
 }
 #edulastic.stage2 .slide-container {
   -webkit-transform: translateX(-750px) !important;
-      -ms-transform: translateX(-750px) !important;
           transform: translateX(-750px) !important;
 }
 #edulastic.stage2 .first {
@@ -390,12 +416,10 @@ canvas {
 }
 #edulastic.stage3 .text-slider {
   -webkit-transform: translateX(-700px) !important;
-      -ms-transform: translateX(-700px) !important;
           transform: translateX(-700px) !important;
 }
 #edulastic.stage3 .slide-container {
   -webkit-transform: translateX(-1500px) !important;
-      -ms-transform: translateX(-1500px) !important;
           transform: translateX(-1500px) !important;
 }
 #edulastic.stage3 .first {
@@ -481,7 +505,6 @@ canvas {
 }
 #team .flex-team .member:hover img {
   -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-filter: saturate(100%);
 }
@@ -851,7 +874,6 @@ canvas {
             justify-content: center;
     top: 10vh !important;
     -webkit-transform: scale(0.8);
-        -ms-transform: scale(0.8);
             transform: scale(0.8);
   }
   #team .flex-team .member {

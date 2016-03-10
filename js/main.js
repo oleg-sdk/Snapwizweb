@@ -123,23 +123,23 @@ $(window).scroll(function() {
 // });
 
 (function fadeInDiv(){
-    var divs = $('.fadeIn');
-    var posx = (Math.random() * 1400).toFixed();
-    var posy = (Math.random() * 1000).toFixed();
-    var maxSize = 20;
-    var minSize = 10;
-    var size = (Math.random()*maxSize+minSize);
-    var elem = divs.eq(Math.floor(Math.random()*divs.length));
-    if (!elem.is(':visible')){
-        elem.fadeIn(Math.floor(Math.random()*250),fadeInDiv);
-        elem.css({
-            '-webkit-transform':'translate3d('+posx+'px, '+posy+'px, 0px',
-            'position':'absolute',
-            'font-size': size+'px',
-        });
-    } else {
-        elem.fadeOut(Math.floor(Math.random()*500),fadeInDiv);
-    }
+    var divs = $('.fadeIn');
+    var posx = (Math.random() * 1400).toFixed();
+    var posy = (Math.random() * 1000).toFixed();
+    var maxSize = 1;
+    var minSize = 0.5;
+    var size = Math.round((Math.random()*maxSize+minSize)*10)/10;
+    var elem = divs.eq(Math.floor(Math.random()*divs.length));
+    if (!elem.is(':visible')){
+        elem.fadeIn(Math.floor(Math.random()*250),fadeInDiv);
+        elem.css({
+            'transform': 'translate3d(' + posx +'px, ' + posy + 'px, 0px) scale(' + size + ')',
+            'position':'absolute',
+            //'font-size': size+'px',
+        });
+    } else {
+        elem.fadeOut(Math.floor(Math.random()*500),fadeInDiv);
+    }
 })();
 
 particlesJS("particles-js", {
