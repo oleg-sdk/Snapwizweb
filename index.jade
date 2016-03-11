@@ -299,21 +299,26 @@ section#partners
       
 section#footer
   .container
-    h2 Get in Touch
-    form
+    h2 Get In Touch
+    form#contactUsForm(action='/mail/send.php', method='post')
+      #loader.hidden
+        .box
+          .border.one
+          .border.two
+          .border.three
+          .border.four
+          .line.one
+          .line.two
+          .line.three
       .top-row
-        h3 Tell us all
-        .office
-          select
-            option U.S. Office
-            option India Office
+        h3 We'd love to hear from you
       .input-row
         .name
-          input#exampleInputName2(type='text', placeholder='Full Name:')
+          input#senderName(required='', type='text', placeholder='Full Name:', name='name')
         .email
-          input#exampleInputEmail1(type='email', placeholder='Email:')
+          input#senderEmail(required='', type='email', placeholder='Email:', name='email')
       .message
-        textarea(rows='5', placeholder='Message:')
+        textarea#senderMsg(required='', rows='5', placeholder='Message:', name='msg')
       button.btn(type='submit') Submit
     .contact-details
       h3 Locations
@@ -324,7 +329,7 @@ section#footer
         p.title.small Phone
         p (510) 509 9806
         p.title.small Email
-        a(href="mailto:support@edulastic.com") info@snapwiz.com
+        a(href='mailto:hello@snapwiz.com') hello@snapwiz.com
       .india
         h4 India
         p.title Snapwiz Edutec India Ltd.
@@ -332,13 +337,13 @@ section#footer
         p.title.small Phone
         p +91 80-65836677 / 88
         p.title.small Email
-        a(href="mailto:support@edulastic.com") info@snapwiz.com
+        a(href='mailto:hello@snapwiz.com') hello@snapwiz.com
     .copyright
       p © Snapwiz Inc. 2016
     .social
-      a.fb(href="www.facebook.com")
-      a.tw(href="www.twitter.com")
-      a.in(href="www.linkedin.com")
+      a.fb(href="https://www.facebook.com/snapwiz/")
+      a.tw(href="https://twitter.com/snapwiz")
+      a.in(href="https://www.linkedin.com/company/snapwiz")
 
 script(src='js/jquery.scrolling.js')
 script(src='js/main.js')

@@ -726,7 +726,7 @@ section{
     }
     form{
       padding-right: 40px;
-      border-right: 1px solid #C3362B;
+      border-right: 1px solid #2F3342;
       .top-row{
         .office{
           height: 40px;
@@ -760,6 +760,7 @@ section{
             background-color: #fff;
             border: 1px solid #ccc;
             border-radius: 6px;
+            outline: none;
             width: 100%;
           }
         }
@@ -777,6 +778,7 @@ section{
         margin-bottom: 30px;
         textarea{
           width: 100%;
+          outline:none;
           height: 100px;
           padding-left: 15px;
           padding-top: 7px;
@@ -793,6 +795,7 @@ section{
         background: 0 0;
         font-size: 16px;
         font-weight: 600;
+        cursor: pointer;
         border-radius: 6px;
         float:right;
         padding: 6px 34px;
@@ -931,7 +934,6 @@ section{
     margin: auto !important;
     width: 700px !important;
     height: 400px;
-
     .wrapper{
       width: 485px;
       height: 284px;
@@ -939,7 +941,6 @@ section{
       left: 109px;
     }
   }
-
   .product-text{
     margin-top: 0 !important;
     position: absolute;
@@ -947,28 +948,23 @@ section{
     right: 0;
     margin: auto;
     width: 700px !important;
-
     .wrapper{
       margin: auto;
       padding-top: 30px;
     }
-
     ul{
       margin-top: 400px !important;
       padding-top: 30px;
-
       li{
         float: left;
         width: 33.33%;
         text-align: center;
       }
     }
-
       h2{
         margin-top: 0 !important;
         text-align: center;
       }
-
       p{
         text-align: center !important;
         border: none !important;
@@ -976,8 +972,25 @@ section{
     }
 
 
-  #team .flex-team .member{
-    width: 33.3333%;
+  #team .flex-team{
+    .member,.join{
+      width: 33.3333%;
+    }
   }
+
+  #footer{
+    .container{
+      min-width: 450px;
+      form, .contact-details{
+        width:100%;
+        padding:0px;
+      }
+      form{
+        border-right: none;
+      }
+    }
+
+  }
+
 
 }

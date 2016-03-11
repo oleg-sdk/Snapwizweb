@@ -326,7 +326,6 @@ canvas {
 #products .product-text .wrapper .text-slider {
   width: 1200px;
   -webkit-transform: translateX(0px);
-      -ms-transform: translateX(0px);
           transform: translateX(0px);
   -webkit-transition: 0.5s cubic-bezier(0.85, 0.13, 0.1, 0.99);
   transition: 0.5s cubic-bezier(0.85, 0.13, 0.1, 0.99);
@@ -373,7 +372,6 @@ canvas {
 .product-slider .wrapper .slide-container {
   width: 3000px;
   -webkit-transform: translateX(0px);
-      -ms-transform: translateX(0px);
           transform: translateX(0px);
   -webkit-transition: 0.5s cubic-bezier(0.85, 0.13, 0.1, 0.99);
   transition: 0.5s cubic-bezier(0.85, 0.13, 0.1, 0.99);
@@ -392,12 +390,10 @@ canvas {
 }
 #edulastic.stage1 .text-slider {
   -webkit-transform: translateX(0px) !important;
-      -ms-transform: translateX(0px) !important;
           transform: translateX(0px) !important;
 }
 #edulastic.stage1 .slide-container {
   -webkit-transform: translateX(0px) !important;
-      -ms-transform: translateX(0px) !important;
           transform: translateX(0px) !important;
 }
 #edulastic.stage1 .first {
@@ -411,12 +407,10 @@ canvas {
 }
 #edulastic.stage2 .text-slider {
   -webkit-transform: translateX(-350px) !important;
-      -ms-transform: translateX(-350px) !important;
           transform: translateX(-350px) !important;
 }
 #edulastic.stage2 .slide-container {
   -webkit-transform: translateX(-750px) !important;
-      -ms-transform: translateX(-750px) !important;
           transform: translateX(-750px) !important;
 }
 #edulastic.stage2 .first {
@@ -430,12 +424,10 @@ canvas {
 }
 #edulastic.stage3 .text-slider {
   -webkit-transform: translateX(-700px) !important;
-      -ms-transform: translateX(-700px) !important;
           transform: translateX(-700px) !important;
 }
 #edulastic.stage3 .slide-container {
   -webkit-transform: translateX(-1500px) !important;
-      -ms-transform: translateX(-1500px) !important;
           transform: translateX(-1500px) !important;
 }
 #edulastic.stage3 .first {
@@ -449,12 +441,10 @@ canvas {
 }
 #glider.stage1 .text-slider {
   -webkit-transform: translateX(0px) !important;
-      -ms-transform: translateX(0px) !important;
           transform: translateX(0px) !important;
 }
 #glider.stage1 .slide-container {
   -webkit-transform: translateX(0px) !important;
-      -ms-transform: translateX(0px) !important;
           transform: translateX(0px) !important;
 }
 #glider.stage1 .first {
@@ -468,12 +458,10 @@ canvas {
 }
 #glider.stage2 .text-slider {
   -webkit-transform: translateX(-350px) !important;
-      -ms-transform: translateX(-350px) !important;
           transform: translateX(-350px) !important;
 }
 #glider.stage2 .slide-container {
   -webkit-transform: translateX(-750px) !important;
-      -ms-transform: translateX(-750px) !important;
           transform: translateX(-750px) !important;
 }
 #glider.stage2 .first {
@@ -487,12 +475,10 @@ canvas {
 }
 #glider.stage3 .text-slider {
   -webkit-transform: translateX(-700px) !important;
-      -ms-transform: translateX(-700px) !important;
           transform: translateX(-700px) !important;
 }
 #glider.stage3 .slide-container {
   -webkit-transform: translateX(-1500px) !important;
-      -ms-transform: translateX(-1500px) !important;
           transform: translateX(-1500px) !important;
 }
 #glider.stage3 .first {
@@ -506,12 +492,10 @@ canvas {
 }
 #spaces.stage1 .text-slider {
   -webkit-transform: translateX(0px) !important;
-      -ms-transform: translateX(0px) !important;
           transform: translateX(0px) !important;
 }
 #spaces.stage1 .slide-container {
   -webkit-transform: translateX(0px) !important;
-      -ms-transform: translateX(0px) !important;
           transform: translateX(0px) !important;
 }
 #spaces.stage1 .first {
@@ -525,12 +509,10 @@ canvas {
 }
 #spaces.stage2 .text-slider {
   -webkit-transform: translateX(-350px) !important;
-      -ms-transform: translateX(-350px) !important;
           transform: translateX(-350px) !important;
 }
 #spaces.stage2 .slide-container {
   -webkit-transform: translateX(-750px) !important;
-      -ms-transform: translateX(-750px) !important;
           transform: translateX(-750px) !important;
 }
 #spaces.stage2 .first {
@@ -544,12 +526,10 @@ canvas {
 }
 #spaces.stage3 .text-slider {
   -webkit-transform: translateX(-700px) !important;
-      -ms-transform: translateX(-700px) !important;
           transform: translateX(-700px) !important;
 }
 #spaces.stage3 .slide-container {
   -webkit-transform: translateX(-1500px) !important;
-      -ms-transform: translateX(-1500px) !important;
           transform: translateX(-1500px) !important;
 }
 #spaces.stage3 .first {
@@ -641,7 +621,6 @@ canvas {
 }
 #team .flex-team .member:hover img {
   -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-filter: saturate(100%);
 }
@@ -840,7 +819,7 @@ canvas {
 }
 #footer .container form {
   padding-right: 40px;
-  border-right: 1px solid #C3362B;
+  border-right: 1px solid #2F3342;
 }
 #footer .container form .top-row .office {
   height: 40px;
@@ -877,6 +856,7 @@ canvas {
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 6px;
+  outline: none;
   width: 100%;
 }
 #footer .container form .input-row .name {
@@ -893,6 +873,7 @@ canvas {
 }
 #footer .container form .message textarea {
   width: 100%;
+  outline: none;
   height: 100px;
   padding-left: 15px;
   padding-top: 7px;
@@ -908,6 +889,7 @@ canvas {
   background: 0 0;
   font-size: 16px;
   font-weight: 600;
+  cursor: pointer;
   border-radius: 6px;
   float: right;
   padding: 6px 34px;
@@ -1069,7 +1051,19 @@ canvas {
     text-align: center !important;
     border: none !important;
   }
-  #team .flex-team .member {
+  #team .flex-team .member,
+  #team .flex-team .join {
     width: 33.3333%;
+  }
+  #footer .container {
+    min-width: 450px;
+  }
+  #footer .container form,
+  #footer .container .contact-details {
+    width: 100%;
+    padding: 0px;
+  }
+  #footer .container form {
+    border-right: none;
   }
 }

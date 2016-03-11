@@ -315,27 +315,32 @@
 </section>
 <section id="footer">
   <div class="container">
-    <h2>Get in Touch</h2>
-    <form>
-      <div class="top-row">
-        <h3>Tell us all</h3>
-        <div class="office">
-          <select>
-            <option>U.S. Office</option>
-            <option>India Office</option>
-          </select>
+    <h2>Get In Touch</h2>
+    <form id="contactUsForm" action="/mail/send.php" method="post">
+      <div id="loader" class="hidden">
+        <div class="box">
+          <div class="border one"></div>
+          <div class="border two"></div>
+          <div class="border three"></div>
+          <div class="border four"></div>
+          <div class="line one"></div>
+          <div class="line two"></div>
+          <div class="line three"></div>
         </div>
+      </div>
+      <div class="top-row">
+        <h3>We'd love to hear from you</h3>
       </div>
       <div class="input-row">
         <div class="name">
-          <input id="exampleInputName2" type="text" placeholder="Full Name:"/>
+          <input id="senderName" required="" type="text" placeholder="Full Name:" name="name"/>
         </div>
         <div class="email">
-          <input id="exampleInputEmail1" type="email" placeholder="Email:"/>
+          <input id="senderEmail" required="" type="email" placeholder="Email:" name="email"/>
         </div>
       </div>
       <div class="message">
-        <textarea rows="5" placeholder="Message:"></textarea>
+        <textarea id="senderMsg" required="" rows="5" placeholder="Message:" name="msg"></textarea>
       </div>
       <button type="submit" class="btn">Submit</button>
     </form>
@@ -346,20 +351,20 @@
         <p class="title">Snapwiz Inc.</p><a href="" class="address">39300 Civic Center Drive, Suite 220 Fremont, CA 94538 U.S.A</a>
         <p class="title small">Phone</p>
         <p>(510) 509 9806</p>
-        <p class="title small">Email</p><a href="mailto:support@edulastic.com">info@snapwiz.com</a>
+        <p class="title small">Email</p><a href="mailto:hello@snapwiz.com">hello@snapwiz.com</a>
       </div>
       <div class="india">
         <h4>India</h4>
         <p class="title">Snapwiz Edutec India Ltd.</p><a href="" class="address">4th Floor, Krimson Square, 31/9, Hosur Rd, #613935 Elevated Expressway, Roopena Agrahara, HSR Layout, Bengaluru, Karnataka 560068</a>
         <p class="title small">Phone</p>
         <p>+91 80-65836677 / 88</p>
-        <p class="title small">Email</p><a href="mailto:support@edulastic.com">info@snapwiz.com</a>
+        <p class="title small">Email</p><a href="mailto:hello@snapwiz.com">hello@snapwiz.com</a>
       </div>
     </div>
     <div class="copyright">
       <p>© Snapwiz Inc. 2016</p>
     </div>
-    <div class="social"><a href="www.facebook.com" class="fb"></a><a href="www.twitter.com" class="tw"></a><a href="www.linkedin.com" class="in"></a></div>
+    <div class="social"><a href="https://www.facebook.com/snapwiz/" class="fb"></a><a href="https://twitter.com/snapwiz" class="tw"></a><a href="https://www.linkedin.com/company/snapwiz" class="in"></a></div>
   </div>
 </section>
 <script src="js/jquery.scrolling.js"></script>
