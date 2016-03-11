@@ -53,6 +53,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/files\/edulastic_actionable_data.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 215264,
+		"inputAbbreviatedPath": "\/files\/edulastic_actionable_data.jpg",
+		"outputAbbreviatedPath": "\/files\/edulastic_actionable_data.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/files\/edulastic_actionable_data2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 185440,
+		"inputAbbreviatedPath": "\/files\/edulastic_actionable_data2.jpg",
+		"outputAbbreviatedPath": "\/files\/edulastic_actionable_data2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/files\/edulastic_expert_ass.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 230956,
+		"inputAbbreviatedPath": "\/files\/edulastic_expert_ass.jpg",
+		"outputAbbreviatedPath": "\/files\/edulastic_expert_ass.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/files\/glider.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -60,6 +93,39 @@
 		"initialSize": 1.0264e+06,
 		"inputAbbreviatedPath": "\/files\/glider.png",
 		"outputAbbreviatedPath": "\/files\/glider.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/files\/glider_ass.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 110102,
+		"inputAbbreviatedPath": "\/files\/glider_ass.jpg",
+		"outputAbbreviatedPath": "\/files\/glider_ass.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/files\/glider_candidate.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 149702,
+		"inputAbbreviatedPath": "\/files\/glider_candidate.jpg",
+		"outputAbbreviatedPath": "\/files\/glider_candidate.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/files\/glider_training.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 349901,
+		"inputAbbreviatedPath": "\/files\/glider_training.png",
+		"outputAbbreviatedPath": "\/files\/glider_training.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -108,6 +174,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/files\/learning_spaces_360.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86233,
+		"inputAbbreviatedPath": "\/files\/learning_spaces_360.jpg",
+		"outputAbbreviatedPath": "\/files\/learning_spaces_360.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/files\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -115,6 +192,28 @@
 		"initialSize": 45725,
 		"inputAbbreviatedPath": "\/files\/logo.png",
 		"outputAbbreviatedPath": "\/files\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/files\/ls_analytics.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77870,
+		"inputAbbreviatedPath": "\/files\/ls_analytics.jpg",
+		"outputAbbreviatedPath": "\/files\/ls_analytics.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/files\/ls_interactive_ebooks.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 154377,
+		"inputAbbreviatedPath": "\/files\/ls_interactive_ebooks.jpg",
+		"outputAbbreviatedPath": "\/files\/ls_interactive_ebooks.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
