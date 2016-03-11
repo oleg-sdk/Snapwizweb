@@ -101,10 +101,16 @@ canvas {
   font-size: 16px;
 }
 #intro .square,
-#intro .brakets {
+#intro .brakets,
+#intro .var,
+#intro .sin,
+#intro .cos,
+#intro .elem {
   font-size: 20px;
 }
-#intro .script {
+#intro .script,
+#intro .w,
+#intro .j {
   font-size: 42px;
 }
 #intro .chemo,
@@ -113,16 +119,20 @@ canvas {
   font-size: 50px;
 }
 #intro .column,
-#intro .epsi {
+#intro .epsi,
+#intro .d {
   font-size: 14px;
 }
-#intro .f {
+#intro .f,
+#intro .formula {
   font-size: 62px;
 }
 #intro .percent,
 #intro .pi,
 #intro .plus,
-#intro .minus {
+#intro .minus,
+#intro .lamb,
+#intro .om {
   font-size: 12px;
 }
 #intro .intro {
