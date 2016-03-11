@@ -108,6 +108,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/files\/glider_ass.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 294217,
+		"inputAbbreviatedPath": "\/files\/glider_ass.png",
+		"outputAbbreviatedPath": "\/files\/glider_ass.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/files\/glider_candidate.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -115,6 +126,17 @@
 		"initialSize": 149702,
 		"inputAbbreviatedPath": "\/files\/glider_candidate.jpg",
 		"outputAbbreviatedPath": "\/files\/glider_candidate.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/files\/glider_candidate.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 421042,
+		"inputAbbreviatedPath": "\/files\/glider_candidate.png",
+		"outputAbbreviatedPath": "\/files\/glider_candidate.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -207,6 +229,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/files\/ls_analytics.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 99589,
+		"inputAbbreviatedPath": "\/files\/ls_analytics.png",
+		"outputAbbreviatedPath": "\/files\/ls_analytics.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/files\/ls_interactive_ebooks.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -214,6 +247,17 @@
 		"initialSize": 154377,
 		"inputAbbreviatedPath": "\/files\/ls_interactive_ebooks.jpg",
 		"outputAbbreviatedPath": "\/files\/ls_interactive_ebooks.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/files\/ls_interactive_ebooks.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 200945,
+		"inputAbbreviatedPath": "\/files\/ls_interactive_ebooks.png",
+		"outputAbbreviatedPath": "\/files\/ls_interactive_ebooks.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -437,15 +481,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
-		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/index.jade": {
 		"compileDebug": 1,

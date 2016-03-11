@@ -561,12 +561,20 @@ canvas {
 #spaces.stage3 .third {
   opacity: 1;
 }
+#glider {
+  margin-bottom: 0px !important;
+}
 #glider .product-slider {
   background: none;
   top: 0vh;
 }
+#glider .product-slider .slide {
+  width: 700px;
+}
 #glider .product-slider .wrapper {
   height: 100%;
+  overflow: visible;
+  left: -50px;
 }
 #glider .product-slider img {
   height: 100%;
