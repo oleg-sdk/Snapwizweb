@@ -95,7 +95,7 @@ section{
   .chemo,.i,.l{
     font-size: 50px;
   }
-  .column,.epsi,.d{
+  .clmn,.epsi,.d{
     font-size: 14px;
   }
   .f,.formula{
@@ -641,6 +641,9 @@ section{
       max-width: 80%;
       margin-left: 44px;
       margin-top: 9px;
+      .face-mobile{
+        display:none;
+      }
       p.partner{
         font-size: 16px;
         font-style: italic;
@@ -667,7 +670,7 @@ section{
       padding-right: 15px;
       width: 25%;
       box-sizing: border-box;
-      opacity: 0.2;
+      opacity: 0.3;
       &.first{
         text-align: left;
         img{
@@ -676,7 +679,7 @@ section{
       }
       &.second{
         img{
-          max-height:100px;
+          max-height:90px;
         }
       }
       &.third{
@@ -687,7 +690,8 @@ section{
       &.fourth{
         text-align: right;
         img{
-          height:100px;
+          max-height:90px;
+          padding-right: 30px;
           }
       }
       img{
@@ -977,6 +981,51 @@ section{
       width: 33.3333%;
     }
   }
+  #partners{
+    .container{
+      min-width: 450px;
+      .testimonial{
+        margin-top: 60px;
+        .face{
+          display:none;
+        }
+        .quote{
+          max-width: 100%;
+          margin: 0px;
+          .face-mobile{
+            display:initial;
+            height: 50px;
+            width: 50px;
+            float:left;
+            margin-top: -15px;
+            img{
+              width:50px;
+            }
+          }
+          p{
+            margin-bottom: 50px;
+          }
+          p.partner{
+            margin: 30px 0px 50px 70px;
+          }
+        }
+      }
+      .partner-logos{
+        margin-bottom: 20px;
+        .column.second{
+          img{
+            max-height:55px;
+          }
+        }
+        .column.fourth{
+          img{
+            max-height: 55px;
+          }
+        }
+
+      }
+    }
+  }
 
   #footer{
     .container{
@@ -989,8 +1038,5 @@ section{
         border-right: none;
       }
     }
-
   }
-
-
 }

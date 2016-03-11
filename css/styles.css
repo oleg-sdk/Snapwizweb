@@ -128,7 +128,7 @@ canvas {
 #intro .l {
   font-size: 50px;
 }
-#intro .column,
+#intro .clmn,
 #intro .epsi,
 #intro .d {
   font-size: 14px;
@@ -739,6 +739,9 @@ canvas {
   margin-left: 44px;
   margin-top: 9px;
 }
+#partners .testimonial .quote .face-mobile {
+  display: none;
+}
 #partners .testimonial .quote p.partner {
   font-size: 16px;
   font-style: italic;
@@ -763,7 +766,7 @@ canvas {
   padding-right: 15px;
   width: 25%;
   box-sizing: border-box;
-  opacity: 0.2;
+  opacity: 0.3;
 }
 #partners .partner-logos .column.first {
   text-align: left;
@@ -772,7 +775,7 @@ canvas {
   margin-top: 5px;
 }
 #partners .partner-logos .column.second img {
-  max-height: 100px;
+  max-height: 90px;
 }
 #partners .partner-logos .column.third img {
   margin-top: 5px;
@@ -781,7 +784,8 @@ canvas {
   text-align: right;
 }
 #partners .partner-logos .column.fourth img {
-  height: 100px;
+  max-height: 90px;
+  padding-right: 30px;
 }
 #partners .partner-logos .column img {
   max-width: 100%;
@@ -1054,6 +1058,44 @@ canvas {
   #team .flex-team .member,
   #team .flex-team .join {
     width: 33.3333%;
+  }
+  #partners .container {
+    min-width: 450px;
+  }
+  #partners .container .testimonial {
+    margin-top: 60px;
+  }
+  #partners .container .testimonial .face {
+    display: none;
+  }
+  #partners .container .testimonial .quote {
+    max-width: 100%;
+    margin: 0px;
+  }
+  #partners .container .testimonial .quote .face-mobile {
+    display: initial;
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-top: -15px;
+  }
+  #partners .container .testimonial .quote .face-mobile img {
+    width: 50px;
+  }
+  #partners .container .testimonial .quote p {
+    margin-bottom: 50px;
+  }
+  #partners .container .testimonial .quote p.partner {
+    margin: 30px 0px 50px 70px;
+  }
+  #partners .container .partner-logos {
+    margin-bottom: 20px;
+  }
+  #partners .container .partner-logos .column.second img {
+    max-height: 55px;
+  }
+  #partners .container .partner-logos .column.fourth img {
+    max-height: 55px;
   }
   #footer .container {
     min-width: 450px;
