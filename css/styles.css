@@ -262,14 +262,13 @@ canvas {
   margin-top: 0px;
 }
 #products .product {
-  height: 100vh;
-  min-height: 700px;
+  height: 900px;
   position: relative;
 }
 #products #edulastic,
 #products #glider,
 #products #spaces {
-  margin-bottom: 200px;
+  height: 900px;
 }
 #products .button {
   width: 150px;
@@ -288,7 +287,7 @@ canvas {
 }
 #products .product-text {
   width: 350px;
-  margin-top: 26vh;
+  margin-top: 195px;
 }
 #products .product-text ul {
   color: white;
@@ -346,9 +345,9 @@ canvas {
   transition: 0.5s ease;
 }
 .product-slider {
-  top: 30vh;
+  top: 230px;
   position: absolute;
-  left: 360px;
+  left: 410px;
   background: url("/files/laptop-full.png") no-repeat;
   background-size: 100%;
   width: 1060px;
@@ -357,12 +356,12 @@ canvas {
   pointer-events: none;
 }
 .product-slider.left {
-  right: 350px;
+  right: 380px;
   left: auto;
 }
 .product-slider .wrapper {
   height: 430px;
-  width: 734px;
+  width: 736px;
   position: absolute;
   top: 70px;
   left: 165px;
@@ -540,12 +539,22 @@ canvas {
 #spaces.stage3 .third {
   opacity: 1;
 }
+#spaces .product-text {
+  margin-top: 50px;
+}
+#spaces .product-slider {
+  top: auto;
+  bottom: 230px;
+}
 #glider {
   margin-bottom: 0px !important;
 }
+#glider .product-text {
+  margin-top: 250px;
+}
 #glider .product-slider {
   background: none;
-  top: 0vh;
+  top: 95px;
 }
 #glider .product-slider .slide {
   width: 700px;
@@ -1178,7 +1187,7 @@ canvas {
     border-right: none;
   }
 }
-@media screen and (min-width: 1000px) and (max-width: 1150px) {
+@media screen and (min-width: 930px) and (max-width: 1150px) {
   #team .flex-team .member,
   #team .flex-team .join {
     width: 25%;
