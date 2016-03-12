@@ -628,7 +628,6 @@ canvas {
   position: absolute;
   width: 100%;
   height: 100%;
-  /* border: 1px solid yellow; */
   z-index: 3;
   background-color: rgba(0, 0, 0, 0.67);
   bottom: 0;
@@ -636,6 +635,43 @@ canvas {
   opacity: 0;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
+}
+#team .flex-team .member .member-hover .detail-desc {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 15px;
+  border: 4px solid #da4e44;
+}
+#team .flex-team .member .member-hover.show-description {
+  background-color: #fff;
+}
+#team .flex-team .member .member-hover.show-description * {
+  display: none;
+}
+#team .flex-team .member .member-hover.show-description .detail-desc,
+#team .flex-team .member .member-hover.show-description .detail-desc p {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.3;
+}
+#team .flex-team .member .member-hover.show-description .member-info {
+  background-image: url('../files/left-arrow.svg');
+  top: auto;
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  height: 15px;
+  z-index: 10;
+  width: 15px;
+  background-size: 15px 15px;
+  right: 14px;
+  bottom: 12px;
 }
 #team .flex-team .member .member-hover .member-social {
   position: absolute;
@@ -652,6 +688,9 @@ canvas {
   height: 20px;
   background-size: 20px 20px;
 }
+#team .flex-team .member .member-hover .member-social a.hidden {
+  display: none;
+}
 #team .flex-team .member .member-hover .member-social a.fb {
   background: url("../files/facebook.svg") no-repeat;
   background-size: 15px 15px;
@@ -664,6 +703,10 @@ canvas {
 #team .flex-team .member .member-hover .member-social a.in {
   background: url("../files/linkedin.svg") no-repeat;
   background-size: 15px 15px;
+}
+#team .flex-team .member .member-hover .member-social a.mail {
+  background: url("../files/email.svg") no-repeat;
+  background-size: 20px 20px;
 }
 #team .flex-team .member .member-hover .bottom {
   position: absolute;
@@ -1055,6 +1098,9 @@ canvas {
     text-align: center !important;
     border: none !important;
   }
+  #team .container {
+    min-width: 450px;
+  }
   #team .flex-team .member,
   #team .flex-team .join {
     width: 33.3333%;
@@ -1107,5 +1153,35 @@ canvas {
   }
   #footer .container form {
     border-right: none;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1150px) {
+  #team .flex-team .member,
+  #team .flex-team .join {
+    width: 25%;
+  }
+  #team .flex-team .member-hover.show-description .detail-desc,
+  #team .flex-team .member-hover.show-description .detail-desc p {
+    font-size: 13px !important;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
+  #team .flex-team .member,
+  #team .flex-team .join {
+    width: calc(16.66666667%);
+  }
+  #team .flex-team .member-hover.show-description .detail-desc,
+  #team .flex-team .member-hover.show-description .detail-desc p {
+    font-size: 15px !important;
+  }
+}
+@media screen and (min-width: 1801px) {
+  #team .flex-team .member,
+  #team .flex-team .join {
+    width: calc(14.28571429%);
+  }
+  #team .flex-team .member-hover.show-description .detail-desc,
+  #team .flex-team .member-hover.show-description .detail-desc p {
+    font-size: 16px !important;
   }
 }
