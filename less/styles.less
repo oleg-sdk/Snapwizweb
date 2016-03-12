@@ -230,13 +230,14 @@ section{
   }
 
   .product{
-    height: 100vh;
-    min-height: 700px;
+    height: 900px;
+    //min-height: 700px;
     position: relative;
   }
 
   #edulastic, #glider, #spaces{
-    margin-bottom: 200px;
+    //margin-bottom: 200px;
+    height: 900px;
   }
   .button{
     color: white;
@@ -257,7 +258,7 @@ section{
 
   .product-text{
     width: 350px;
-    margin-top: 26vh;
+    margin-top: 195px;
     ul{
       color: white;
       font-size: 18px;
@@ -326,9 +327,9 @@ section{
     }
   }
   .product-slider{
-    top: 30vh;
+    top: 230px;
     position: absolute;
-    left: 360px;
+    left: 410px;
     background: url("/files/laptop-full.png") no-repeat;
     background-size: 100%;
     width: 1060px;
@@ -336,12 +337,12 @@ section{
     z-index: 0;
     pointer-events: none;
     &.left{
-      right: 350px;
+      right: 380px;
       left: auto;
     }
     .wrapper{
       height: 430px;
-      width: 734px;
+      width: 736px;
       position: absolute;
       top: 70px;
       left: 165px;
@@ -431,12 +432,23 @@ section{
   .second{opacity: 0;}
   .third{opacity: 1;}
 }
-
+#spaces{
+  .product-text{
+    margin-top: 50px;
+  }
+  .product-slider{
+    top: auto;
+    bottom: 230px;
+  }
+}
 #glider{
   margin-bottom: 0px !important;
+  .product-text{
+    margin-top: 250px;
+  }
   .product-slider{
     background: none;
-    top: 0vh;
+    top: 95px;
 
     .slide{
       width: 700px;
@@ -1121,7 +1133,7 @@ section{
     }
   }
 }
-@media screen and (min-width: 1000px) and (max-width: 1150px){
+@media screen and (min-width: 930px) and (max-width: 1150px){
   #team .flex-team{
     .member,.join{
       width: 25%;
