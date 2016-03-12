@@ -188,7 +188,6 @@ canvas {
 }
 #features .container {
   height: auto;
-  margin-bottom: 70px;
 }
 #features h2 {
   text-align: center;
@@ -550,6 +549,10 @@ canvas {
 }
 #glider .product-slider .slide {
   width: 700px;
+}
+#glider .product-slider .slide.third img {
+  margin-right: 80px;
+  height: 110%;
 }
 #glider .product-slider .wrapper {
   height: 100%;
@@ -1032,6 +1035,22 @@ canvas {
   background-size: 15px 15px;
 }
 @media screen and (max-width: 930px) {
+  #features .container {
+    min-width: 450px;
+  }
+  #features .container .features {
+    min-width: 450px;
+  }
+  #features .container .features .feature {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  #features .container .features .feature img {
+    width: 300px;
+  }
+  #features .container .features .feature h2 {
+    font-size: 22px;
+  }
   #edulastic,
   #glider,
   #spaces {
@@ -1046,6 +1065,10 @@ canvas {
   }
   #glider .slide {
     width: 700px;
+  }
+  #glider .slide.third img {
+    margin-right: auto;
+    height: 100%;
   }
   #glider .product-slider img {
     height: 100%;

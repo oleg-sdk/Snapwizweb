@@ -143,7 +143,7 @@ section{
   padding-top: 25px;
   .container{
     height:auto;
-    margin-bottom: 70px;
+    //margin-bottom: 70px;
   }
   h2{
     text-align: center;
@@ -440,6 +440,12 @@ section{
 
     .slide{
       width: 700px;
+      &.third{
+        img{
+          margin-right: 80px;
+          height:110%;
+        }
+      }
     }
 
     .wrapper{
@@ -948,6 +954,24 @@ section{
 
 
 @media screen and (max-width: 930px) {
+  #features{
+    .container{
+      min-width: 450px;
+      .features{
+        min-width: 450px;
+        .feature{
+          width:100%;
+          margin-bottom: 60px;
+          img{
+            width: 300px;
+          }
+          h2{
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
 
   #edulastic, #glider, #spaces{
     padding-top: 100px !important;
@@ -965,6 +989,12 @@ section{
 
     .slide{
       width: 700px;
+      &.third{
+        img{
+          margin-right: auto;
+          height:100%;
+        }
+      }
     }
 
     .product-slider img{
