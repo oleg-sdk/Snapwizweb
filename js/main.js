@@ -255,7 +255,7 @@ particlesJS("particles-js", {
 
 //------------Member info------------//
 
-$(document).on('click','.js-show-desc', function(e){
+$(document).on('touchend click','.js-show-desc', function(e){
   var targ = $(e.target);
   var holder = targ.parents('.member-hover');
 
