@@ -13,7 +13,7 @@ section#intro
     .fadeIn.script(data-icon='c')
     .fadeIn.chemo(data-icon='d')
     .fadeIn.brakets(data-icon='e')
-    .fadeIn.column(data-icon='f')
+    .fadeIn.clmn(data-icon='f')
     .fadeIn.epsi(data-icon='g')
     .fadeIn.f(data-icon='h')
     .fadeIn.i(data-icon='i')
@@ -66,7 +66,6 @@ section#products
   .products-bg.bg-purple
   .products-bg.bg-green
   
-  
   .product#edulastic.stage1
     .container  
       .product-slider.left
@@ -103,7 +102,7 @@ section#products
             .slide.second
               img(src="files/glider_candidate.png")
             .slide.third
-              img(src="files/glider.png")
+              img(src="files/glider_training.png")
                     
       .product-text.left   
         h2 Glider App
@@ -117,7 +116,7 @@ section#products
             p Competency-driven assessments provide insight not only into candidates’ job skills, but soft skills and cultural fit too.
             p Artificial Intelligence based matching technology locates the best talent and match for the job, and a streamlined hiring workflow significantly reduces time-to-fill.
             p Customized training programs deliver immediately productive new hires and keep your existing team sharp and engaged.
-    
+        a.button(href="http://gliderapp.com/") Learn more
       
             
   .product#spaces.stage1
@@ -141,11 +140,9 @@ section#products
         .wrapper
           .text-slider
             p Instructors see real-time performance data. An instant overview of student progress and proficiency helps pinpoint areas of strength and areas of concern.
-            p Students get a contextualized and adaptive learning experience that helps them navigate texts, create and organize their study plan, and participate in lively discussions with their instructor and the entire class. Instructors collaborate with one another on course content—sharing the best curriculums and methodologies in an open repository.
-            p Students collaborate with their instructors and the entire class, which boosts student engagement and productivity. Instructors can craft and share with their peers multi-faceted lesson plans that encourage students to showcase their ideas and thoughts while they learn.
-    
-           
-
+            p Students get a contextualized and adaptive learning experience that helps them navigate texts, create and organize their study plan, and participate in lively discussions with their instructor and the entire class.
+            p Students collaborate with their instructors and the entire class, which boosts student engagement and productivity. Instructors can craft and share with their peers multi-faceted lesson plans.
+        a.button(href="https://docs.google.com/forms/d/1UX-mWs3f-r_iwfRgMVarmX8OIHIdpHkWItyy5DohjnM/viewform?usp=send_form") Learn more
 section#team
   .container
     h2 Snapwiz Team
@@ -154,126 +151,188 @@ section#team
     .member
       img(src="../files/team/6.jpg")
       .member-hover
-        .member-info
+        .member-info.js-show-desc
         .member-social
-          a.fb(href="www.facebook.com")
-          a.in(href="www.twitter.com")
+          a.fb(href="www.facebook.com").hidden
+          a.in(href="www.linkedin.com").hidden
+          a.mail(href="mailto:madhu@snapwiz.com")
         .bottom
           h3 Madhu Narasa
           p CEO & Co-Founder
+        .detail-desc.js-desc-section
+          p Madhu Narasa is the CEO and co-founder of Snapwiz, a premier adaptive learning company.Madhu started Snapwiz with a simple mission: revitalize education with technology-based teaching solutions.
     .member
       img(src="../files/team/3.jpg")
       .member-hover
-        .member-info
+        .member-info.js-show-desc
         .member-social
-          a.fb(href="www.facebook.com")
-          a.in(href="www.twitter.com")
+          a.fb(href="www.facebook.com").hidden
+          a.in(href="www.linkedin.com").hidden
+          a.mail(href="mailto:satish@snapwiz.com")
         .bottom
           h3 Satish Kumar
           p COO & Co-Founder
+        .detail-desc.js-desc-section
+          p Satish has deep experience in managing products, technology and operations. Before joining Snapwiz, he co-founded Getvendors, an online marketing company that won several accolades from media and analysts. 
     .member
       img(src="../files/team/9.jpg")
       .member-hover
-        .member-info
+        .member-info.js-show-desc
         .member-social
-          a.fb(href="www.facebook.com")
-          a.tw(href="www.twitter.com")
+          a.fb(href="www.facebook.com").hidden
+          a.in(href="www.linkedin.com").hidden
+          a.mail(href="mailto:aditya@snapwiz.com")
         .bottom
           h3 Aditya Agarkar
-          p VP of Product & Co-Founder      
+          p VP of Product & Co-Founder
+        .detail-desc.js-desc-section
+          p Aditya is a seasoned executive with a solid track record in the technology industry. Prior to co-founding Snapwiz, Aditya was with Oracle Corp. for nine years where he held many senior level positions in the Applications division.
     .member
       img(src="../files/team/8.jpg")
       .member-hover
-        .member-info
+        .member-info.js-show-desc
         .member-social
-          a.fb(href="www.facebook.com")
-          a.tw(href="www.twitter.com")
+          a.fb(href="www.facebook.com").hidden
+          a.in(href="www.linkedin.com").hidden
+          a.mail(href="mailto:leslie.tyler@snapwiz.com")
         .bottom
           h3 Leslie Tyler
           p VP of Marketing
+        .detail-desc.js-desc-section
+          p Leslie has led marketing at Internet companies for the past 15 years targeting both consumer and B2B customers. Most recently as Vice President of Marketing at JustAnswer and previously as Vice President of Marketing at ZipRealty.
     .member
       img(src="../files/team/4.jpg")
       .member-hover
-        .member-info
+        .member-info.js-show-desc
         .member-social
-          a.fb(href="www.facebook.com")
-          a.tw(href="www.twitter.com")
+          a.fb(href="www.facebook.com").hidden
+          a.in(href="www.linkedin.com").hidden
+          a.mail(href="mailto:sriram@snapwiz.com")
         .bottom
           h3 Sriram Cherukuri
           p Director of Technology
+        .detail-desc.js-desc-section
+          p Sriram leads Mobile Development at Snapwiz. Prior to founding Snapwiz, he was a Senior Engineer at Oracle Corporation, Yahoo Search and Bing.com (Microsoft). At Oracle he developed products for Identity management for Oracle E-Business Suite.
     .member
       img(src="../files/team/7.jpg")
       .member-hover
-        .member-info
+        .member-info.js-show-desc
         .member-social
-          a.fb(href="www.facebook.com")
-          a.tw(href="www.twitter.com")
+          a.fb(href="www.facebook.com").hidden
+          a.in(href="www.linkedin.com").hidden
+          a.mail(href="mailto:samba@snapwiz.com")
         .bottom
           h3 Samba Potla
           p Director of Engineering
+        .detail-desc.js-desc-section
+          p Samba has over 13 years of professional experience spanning multiple industries including technology, commodity trading, insurance and banking–of which 10 years were spent in software product engineering services working with software product companies.
     .member
       img(src="../files/team/5.jpg")
       .member-hover
-        .member-info
+        .member-info.js-show-desc
         .member-social
-          a.fb(href="www.facebook.com")
-          a.tw(href="www.twitter.com")
+          a.fb(href="www.facebook.com").hidden
+          a.in(href="www.linkedin.com").hidden
+          a.mail(href="mailto:lawrence.chernin@snapwiz.com")
         .bottom
           h3 Lawrence Chernin
           p Senior Director, Data Science
+        .detail-desc.js-desc-section
+          p Lawrence originally worked as an astrophysicist at Berkeley after completing a PhD at Harvard University.
+    .member
+      img(src="../files/team/13.png")
+      .member-hover
+        .member-info.js-show-desc
+        .member-social
+          a.fb(href="www.facebook.com").hidden
+          a.in(href="www.linkedin.com").hidden
+          a.mail(href="mailto:vinod.haridas@snapwiz.com")
+        .bottom
+          h3 Vinod Haridas
+          p Director of Engineering
+        .detail-desc.js-desc-section
+          p Vinod has more than 16 years of professional experience in the technology sector spanning various domains like finance, loan and mortgage, employee background verification, and applicant tracking systems.
     .member
       img(src="../files/team/1.jpg")
       .member-hover
-        .member-info
+        .member-info.js-show-desc
         .member-social
-          a.fb(href="www.facebook.com")
-          a.tw(href="www.twitter.com")
+          a.fb(href="www.facebook.com").hidden
+          a.in(href="www.linkedin.com").hidden
+          a.mail(href="mailto:samarth.upponi@snapwiz.com")
         .bottom
           h3 Samarth Upponi
           p Senior Product Manager
+        .detail-desc.js-desc-section
+          p Samarth is responsible for Product Management at Edulastic. He works closely with the Marketing and Engineering teams to ensure focused product development. Previously, Samarth was at Cisco where he held various Software Development and Product Management positions.
     .member
-      img(src="../files/team/2.jpg")
+      img(src="../files/team/10.jpg")
       .member-hover
-        .member-info
+        .member-info.js-show-desc
         .member-social
-          a.fb(href="www.facebook.com")
-          a.tw(href="www.twitter.com")
-        .bottom
-          h3 Jordan Taylor
-          p Marketing Associate
-    .member
-      img(src="../files/team/1.jpg")
-      .member-hover
-        .member-info
-        .member-social
-          a.fb(href="www.facebook.com")
-          a.tw(href="www.twitter.com")
+          a.fb(href="www.facebook.com").hidden
+          a.in(href="www.linkedin.com").hidden
+          a.mail(href="mailto:timothy@snapwiz.com")
         .bottom
           h3 Tim Sitar
           p Curriculum Advisor
+        .detail-desc.js-desc-section
+          p Tim has 20 years of educational publishing experience with over 12 years devoted to K-12 assessment development. Prior to Snapwiz, Tim held grade level lead and editorial project management roles at CTB/McGraw-Hill and the American Institutes for Research.
     .member
-      img(src="../files/team/3.jpg")
+      img(src="../files/team/11.jpg")
       .member-hover
-        .member-info
+        .member-info.js-show-desc
         .member-social
-          a.fb(href="www.facebook.com")
-          a.tw(href="www.twitter.com")
+          a.fb(href="www.facebook.com").hidden
+          a.in(href="www.linkedin.com").hidden
+          a.mail(href="mailto:john.kyte@snapwiz.com")
         .bottom
-          h3 Madhu Narasa
-          p CEO & Co-Founder
+          h3 John Kyte
+          p Senior Business Development Manager
+        .detail-desc.js-desc-section
+          p John is responsible for Business Development at Edulastic. He works closely with the Customer Success and Marketing teams to acquire new customers and manage partnerships.
     .member
-      img(src="../files/team/4.jpg")
+      img(src="../files/team/2.jpg")
       .member-hover
-        .member-info
+        .member-info.js-show-desc
         .member-social
-          a.fb(href="www.facebook.com")
-          a.tw(href="www.twitter.com")
+          a.fb(href="www.facebook.com").hidden
+          a.in(href="www.linkedin.com").hidden
+          a.mail(href="mailto:sannah@snapwiz.com")
         .bottom
-          h3 Madhu Narasa
-          p CEO & Co-Founder
+          h3 Sannah Ziama
+          p Senior Data Scientist
+        .detail-desc.js-desc-section
+          p Sannah is a theoretical physicist who has recently developed lots of interest in the technology sector. He is keen on approaching problems in the technology sector with the same rigorous scientific spirit in which he has over the years solved important problems of fundamental physics.
+    .member
+      img(src="../files/team/12.jpg")
+      .member-hover
+        .member-info.js-show-desc
+        .member-social
+          a.fb(href="www.facebook.com").hidden
+          a.in(href="www.linkedin.com").hidden
+          a.mail(href="mailto:john.chen@edulastic.com")
+        .bottom
+          h3 John Chen
+          p Customer Success Manager
+        .detail-desc.js-desc-section
+          p John is the Customer Success manager at Edulastic. His professional experience covers stints in multiple industries including financial services, market research and most recently, educational technology.
+    .member
+      img(src="../files/team/14.png")
+      .member-hover
+        .member-info.js-show-desc
+        .member-social
+          a.fb(href="www.facebook.com").hidden
+          a.in(href="www.linkedin.com").hidden
+          a.mail(href="mailto:sankara.sivaraman@snapwiz.com")
+        .bottom
+          h3 Sankara Sivaraman
+          p Project Manager
+        .detail-desc.js-desc-section
+          p Sankara is responsible for Project Management in Edulastic. He works with Product Management and Engineering teams to ensure timely deliverables.
     .join
       img(src="../files/team/join.png")
-      a(href="") + Join Snapwiz
+      a(target="_blank" href="https://snapwiz.workable.com/") + Join Snapwiz
     
 section#partners
   .container
@@ -283,6 +342,8 @@ section#partners
         img(src="../files/partner.png")
       .quote 
         p "Learning Space, created by the Snapwiz-Wiley partnership, will change the way we think about digital learning. For great ideas and creative energy, we like working with Snapwiz."
+        .face-mobile
+          img(src="../files/partner.png")
         p.partner 
           | Peter Booth Wiley, 
           span Chairman of the Board, Partner
@@ -299,21 +360,26 @@ section#partners
       
 section#footer
   .container
-    h2 Get in Touch
-    form
+    h2 Get In Touch
+    form#contactUsForm(action='/mail/send.php', method='post')
+      #loader.hidden
+        .box
+          .border.one
+          .border.two
+          .border.three
+          .border.four
+          .line.one
+          .line.two
+          .line.three
       .top-row
-        h3 Tell us all
-        .office
-          select
-            option U.S. Office
-            option India Office
+        h3 We'd love to hear from you
       .input-row
         .name
-          input#exampleInputName2(type='text', placeholder='Full Name:')
+          input#senderName(required='', type='text', placeholder='Full Name:', name='name')
         .email
-          input#exampleInputEmail1(type='email', placeholder='Email:')
+          input#senderEmail(required='', type='email', placeholder='Email:', name='email')
       .message
-        textarea(rows='5', placeholder='Message:')
+        textarea#senderMsg(required='', rows='5', placeholder='Message:', name='msg')
       button.btn(type='submit') Submit
     .contact-details
       h3 Locations
@@ -324,7 +390,7 @@ section#footer
         p.title.small Phone
         p (510) 509 9806
         p.title.small Email
-        a(href="mailto:support@edulastic.com") info@snapwiz.com
+        a(href='mailto:hello@snapwiz.com') hello@snapwiz.com
       .india
         h4 India
         p.title Snapwiz Edutec India Ltd.
@@ -332,13 +398,13 @@ section#footer
         p.title.small Phone
         p +91 80-65836677 / 88
         p.title.small Email
-        a(href="mailto:support@edulastic.com") info@snapwiz.com
+        a(href='mailto:hello@snapwiz.com') hello@snapwiz.com
     .copyright
       p © Snapwiz Inc. 2016
     .social
-      a.fb(href="www.facebook.com")
-      a.tw(href="www.twitter.com")
-      a.in(href="www.linkedin.com")
+      a.fb(href="https://www.facebook.com/snapwiz/")
+      a.tw(href="https://twitter.com/snapwiz")
+      a.in(href="https://www.linkedin.com/company/snapwiz")
 
 script(src='js/jquery.scrolling.js')
 script(src='js/main.js')
