@@ -258,8 +258,8 @@ particlesJS("particles-js", {
 $(document).on('click','.js-show-desc', function(e){
   var targ = $(e.target);
   var holder = targ.parents('.member-hover');
-
   holder.toggleClass('show-description');
+
 });
 
 console.log("App ready");
