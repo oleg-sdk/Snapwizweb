@@ -303,6 +303,7 @@ canvas {
   transition: 0.3s ease;
   cursor: pointer;
   display: block;
+  margin-top: 20px;
 }
 #products .product-text ul li.active {
   opacity: 1;
