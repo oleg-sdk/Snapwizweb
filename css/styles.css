@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background: #F9F9FF;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -295,7 +295,7 @@ canvas {
   letter-spacing: 0.5px;
   list-style: none;
   padding-left: 5px;
-  line-height: 36px;
+  line-height: 20px;
 }
 #products .product-text ul li {
   opacity: 0.5;
@@ -324,6 +324,7 @@ canvas {
 #products .product-text .wrapper .text-slider {
   width: 1200px;
   -webkit-transform: translateX(0px);
+      -ms-transform: translateX(0px);
           transform: translateX(0px);
   -webkit-transition: 0.5s cubic-bezier(0.85, 0.13, 0.1, 0.99);
   transition: 0.5s cubic-bezier(0.85, 0.13, 0.1, 0.99);
@@ -370,6 +371,7 @@ canvas {
 .product-slider .wrapper .slide-container {
   width: 3000px;
   -webkit-transform: translateX(0px);
+      -ms-transform: translateX(0px);
           transform: translateX(0px);
   -webkit-transition: 0.5s cubic-bezier(0.85, 0.13, 0.1, 0.99);
   transition: 0.5s cubic-bezier(0.85, 0.13, 0.1, 0.99);
@@ -388,10 +390,12 @@ canvas {
 }
 #edulastic.stage1 .text-slider {
   -webkit-transform: translateX(0px) !important;
+      -ms-transform: translateX(0px) !important;
           transform: translateX(0px) !important;
 }
 #edulastic.stage1 .slide-container {
   -webkit-transform: translateX(0px) !important;
+      -ms-transform: translateX(0px) !important;
           transform: translateX(0px) !important;
 }
 #edulastic.stage1 .first {
@@ -405,10 +409,12 @@ canvas {
 }
 #edulastic.stage2 .text-slider {
   -webkit-transform: translateX(-350px) !important;
+      -ms-transform: translateX(-350px) !important;
           transform: translateX(-350px) !important;
 }
 #edulastic.stage2 .slide-container {
   -webkit-transform: translateX(-750px) !important;
+      -ms-transform: translateX(-750px) !important;
           transform: translateX(-750px) !important;
 }
 #edulastic.stage2 .first {
@@ -422,10 +428,12 @@ canvas {
 }
 #edulastic.stage3 .text-slider {
   -webkit-transform: translateX(-700px) !important;
+      -ms-transform: translateX(-700px) !important;
           transform: translateX(-700px) !important;
 }
 #edulastic.stage3 .slide-container {
   -webkit-transform: translateX(-1500px) !important;
+      -ms-transform: translateX(-1500px) !important;
           transform: translateX(-1500px) !important;
 }
 #edulastic.stage3 .first {
@@ -439,10 +447,12 @@ canvas {
 }
 #glider.stage1 .text-slider {
   -webkit-transform: translateX(0px) !important;
+      -ms-transform: translateX(0px) !important;
           transform: translateX(0px) !important;
 }
 #glider.stage1 .slide-container {
   -webkit-transform: translateX(0px) !important;
+      -ms-transform: translateX(0px) !important;
           transform: translateX(0px) !important;
 }
 #glider.stage1 .first {
@@ -456,10 +466,12 @@ canvas {
 }
 #glider.stage2 .text-slider {
   -webkit-transform: translateX(-350px) !important;
+      -ms-transform: translateX(-350px) !important;
           transform: translateX(-350px) !important;
 }
 #glider.stage2 .slide-container {
   -webkit-transform: translateX(-750px) !important;
+      -ms-transform: translateX(-750px) !important;
           transform: translateX(-750px) !important;
 }
 #glider.stage2 .first {
@@ -473,10 +485,12 @@ canvas {
 }
 #glider.stage3 .text-slider {
   -webkit-transform: translateX(-700px) !important;
+      -ms-transform: translateX(-700px) !important;
           transform: translateX(-700px) !important;
 }
 #glider.stage3 .slide-container {
   -webkit-transform: translateX(-1500px) !important;
+      -ms-transform: translateX(-1500px) !important;
           transform: translateX(-1500px) !important;
 }
 #glider.stage3 .first {
@@ -490,10 +504,12 @@ canvas {
 }
 #spaces.stage1 .text-slider {
   -webkit-transform: translateX(0px) !important;
+      -ms-transform: translateX(0px) !important;
           transform: translateX(0px) !important;
 }
 #spaces.stage1 .slide-container {
   -webkit-transform: translateX(0px) !important;
+      -ms-transform: translateX(0px) !important;
           transform: translateX(0px) !important;
 }
 #spaces.stage1 .first {
@@ -507,10 +523,12 @@ canvas {
 }
 #spaces.stage2 .text-slider {
   -webkit-transform: translateX(-350px) !important;
+      -ms-transform: translateX(-350px) !important;
           transform: translateX(-350px) !important;
 }
 #spaces.stage2 .slide-container {
   -webkit-transform: translateX(-750px) !important;
+      -ms-transform: translateX(-750px) !important;
           transform: translateX(-750px) !important;
 }
 #spaces.stage2 .first {
@@ -524,10 +542,12 @@ canvas {
 }
 #spaces.stage3 .text-slider {
   -webkit-transform: translateX(-700px) !important;
+      -ms-transform: translateX(-700px) !important;
           transform: translateX(-700px) !important;
 }
 #spaces.stage3 .slide-container {
   -webkit-transform: translateX(-1500px) !important;
+      -ms-transform: translateX(-1500px) !important;
           transform: translateX(-1500px) !important;
 }
 #spaces.stage3 .first {
@@ -642,6 +662,7 @@ canvas {
 }
 #team .flex-team .member:hover img {
   -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-filter: saturate(100%);
 }
@@ -1073,17 +1094,19 @@ canvas {
 }
 @media screen and (max-width: 930px) {
   #features .container {
-    min-width: 450px;
+    padding-bottom: 100px;
+    min-width: 550px;
   }
   #features .container .features {
-    min-width: 450px;
+    min-width: 550px;
+    display: none;
   }
   #features .container .features .feature {
-    width: 100%;
+    width: 20%;
     margin-bottom: 60px;
   }
   #features .container .features .feature img {
-    width: 300px;
+    width: 180px;
   }
   #features .container .features .feature h2 {
     font-size: 22px;
@@ -1091,14 +1114,20 @@ canvas {
   #edulastic,
   #glider,
   #spaces {
-    padding-top: 100px !important;
+    padding-top: 150px !important;
     margin-bottom: 0px !important;
+  }
+  #spaces .product-slider {
+    bottom: auto;
+  }
+  #spaces .container .slider {
+    padding-top: 200px;
   }
   #glider .wrapper {
     width: 100%;
     height: 100%;
-    top: 0;
-    left: 0;
+    top: 0 !important;
+    left: 0 !important;
   }
   #glider .slide {
     width: 700px;
@@ -1110,13 +1139,16 @@ canvas {
   #glider .product-slider img {
     height: 100%;
   }
+  #glider ul {
+    padding-top: 120px;
+  }
   .button {
     margin: auto;
   }
   .product-slider {
     position: absolute;
-    margin-top: 100px !important;
-    top: 100px !important;
+    margin-top: 150px !important;
+    top: 150px !important;
     left: 0px !important;
     right: 0px !important;
     margin: auto !important;
@@ -1142,7 +1174,7 @@ canvas {
     padding-top: 30px;
   }
   .product-text ul {
-    margin-top: 400px !important;
+    margin-top: 460px !important;
     padding-top: 30px;
   }
   .product-text ul li {
